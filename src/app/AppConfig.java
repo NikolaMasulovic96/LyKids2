@@ -32,6 +32,8 @@ public class AppConfig {
 	//novo -> cuvanje snap istorije
 	public static Map<Integer,SnapshotIndicator> snapshotIndicators = Collections.synchronizedMap(new HashMap<Integer,SnapshotIndicator>());
 	
+	public static Map<Integer, SnapshotGlobalInfo> globalSnapshotsInfos = Collections.synchronizedMap(new HashMap<Integer,SnapshotGlobalInfo>());
+	
 	public static AtomicInteger currentSnapshotId = new AtomicInteger(-1);
 	public static Integer currentSnapshotInitiator = -1;
 	
@@ -46,10 +48,6 @@ public class AppConfig {
 		System.out.println(timeFormat.format(now) + " - " + message);
 	}
 	
-	/**
-	 * Print a message to stderr with a timestamp
-	 * @param message message to print
-	 */
 	public static void timestampedErrorPrint(String message) {
 		DateFormat timeFormat = new SimpleDateFormat("HH:mm:ss");
 		Date now = new Date();
@@ -105,9 +103,7 @@ public class AppConfig {
 		if (snapshotType == null) {
 			snapshotType = "none";
 		}
-		
-		
-		
+				
 		for (int i = 0; i < serventCount; i++) {
 			String portProperty = "servent"+i+".port";
 			
@@ -120,7 +116,7 @@ public class AppConfig {
 				System.exit(0);
 			}
 			
-			//*************************
+			//************************* trazim ko su mi inicijatori
 			String initiators = properties.getProperty("initiators");
 			if(initiators == null) {
 				timestampedErrorPrint("Initiators are not provided!");
@@ -131,7 +127,7 @@ public class AppConfig {
 					snapshotIndicators.putIfAbsent(Integer.parseInt(ind), snapshopIndicator);
 				}
 			}
-			timestampedErrorPrint("Initiators are :" + snapshotIndicators.toString());
+			
 			
 			
 			List<Integer> neighborList = new ArrayList<>();
@@ -163,6 +159,15 @@ public class AppConfig {
 			
 			ServentInfo newInfo = new ServentInfo("localhost", i, serventPort, neighborList);
 			serventInfoList.add(newInfo);
+			//************************** svakom inicijatoru hocu da napravim globalSnaphots info 
+			//da svaki inicijator za snapshot ima pojam o svakom cvoru kakvo je stanje
+			if(serventInfoList.size() == serventCount) {
+				for (Map.Entry<Integer,SnapshotIndicator> entry : AppConfig.snapshotIndicators.entrySet()) {
+					SnapshotGlobalInfo globalInfo = new SnapshotGlobalInfo(entry.getValue().getSnapshotId());
+					globalSnapshotsInfos.putIfAbsent(entry.getKey(), globalInfo);
+				}
+				AppConfig.timestampedErrorPrint("222222222+++"+globalSnapshotsInfos.toString());
+			}
 		}
 	}
 	
@@ -185,5 +190,22 @@ public class AppConfig {
 	public static int getServentCount() {
 		return serventInfoList.size();
 	}
-	
+	public static List<ServentInfo> getServenInfoList(){
+		return serventInfoList;
+	}
+	public static ServentStatusInfo getSnapshotGlobalInfo(Integer initiatorId, int snapshot, int serventId) {
+		for (Map.Entry<Integer,SnapshotGlobalInfo> entry : AppConfig.globalSnapshotsInfos.entrySet()) {
+			if(entry.getKey() == initiatorId) {
+				SnapshotGlobalInfo info = entry.getValue();
+				if(info.getSnapshotId().get() == snapshot) {
+					for (ServentStatusInfo serventStatusInfo : info.getServentStatusInfos()) {
+						if(serventStatusInfo.getServentId() == serventId) {
+							return serventStatusInfo;
+						}
+					}
+				}
+			}
+		}
+		return null;
+	}	
 }

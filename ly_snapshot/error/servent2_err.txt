@@ -1,7 +1,1 @@
-18:56:51 - Initiators are :{4=SnapshotIndicator <initiatorId:4, snap:0>}
-18:56:51 - Initiators are :{4=SnapshotIndicator <initiatorId:4, snap:0>}
-18:56:51 - Initiators are :{4=SnapshotIndicator <initiatorId:4, snap:0>}
-18:56:51 - Initiators are :{4=SnapshotIndicator <initiatorId:4, snap:0>}
-18:56:51 - Initiators are :{4=SnapshotIndicator <initiatorId:4, snap:0>}
-18:56:51 - Initiators are :{4=SnapshotIndicator <initiatorId:4, snap:0>}
-18:56:51 - Initiators are :{4=SnapshotIndicator <initiatorId:4, snap:0>}
+23:47:06 - 222222222+++{4=SnapshotGlobalInfo [snapshotId=0, serventStatusInfos=[ServentStatusInfo [serventId=0, currentAmount=0, giveHistory={1=0, 2=0, 6=0}, getHistory={1=0, 2=0, 6=0}], ServentStatusInfo [serventId=1, currentAmount=0, giveHistory={0=0, 2=0, 3=0, 5=0}, getHistory={0=0, 2=0, 3=0, 5=0}], ServentStatusInfo [serventId=2, currentAmount=0, giveHistory={0=0, 1=0, 3=0, 6=0}, getHistory={0=0, 1=0, 3=0, 6=0}], ServentStatusInfo [serventId=3, currentAmount=0, giveHistory={1=0, 2=0, 4=0, 6=0}, getHistory={1=0, 2=0, 4=0, 6=0}], ServentStatusInfo [serventId=4, currentAmount=0, giveHistory={3=0, 5=0}, getHistory={3=0, 5=0}], ServentStatusInfo [serventId=5, currentAmount=0, giveHistory={1=0, 4=0, 6=0}, getHistory={1=0, 4=0, 6=0}], ServentStatusInfo [serventId=6, currentAmount=0, giveHistory={0=0, 2=0, 3=0, 5=0}, getHistory={0=0, 2=0, 3=0, 5=0}]]]}

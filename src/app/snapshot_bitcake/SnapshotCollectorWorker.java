@@ -82,7 +82,7 @@ public class SnapshotCollectorWorker implements SnapshotCollector {
 					return;
 				}
 			}
-			
+			AppConfig.timestampedErrorPrint(AppConfig.globalSnapshotsInfos.toString());
 			//print
 			int sum;
 			sum = 0;

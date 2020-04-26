@@ -51,14 +51,11 @@ public class DelayedMessageSender implements Runnable {
 			synchronized (AppConfig.colorLock) {
 				
 					//messageToSend = messageToSend.setRedColor();
-					//AppConfig.timestampedStandardPrint(AppConfig.currentSnapshotInitiator + " " +AppConfig.currentSnapshotId.get()+ "Steva Spears");
 					SnapshotIndicator snap =  new SnapshotIndicator(AppConfig.currentSnapshotInitiator, AppConfig.currentSnapshotId.get());
 					messageToSend.setSnapshotIndicator(snap);
-//					AppConfig.timestampedStandardPrint(snap.toString() + "Steva Spears");
 
 					if (MessageUtil.MESSAGE_UTIL_PRINTING) {
 						AppConfig.timestampedStandardPrint("Sending message " + messageToSend);
-						//AppConfig.timestampedStandardPrint("with parameters: " + AppConfig.currentSnapshotInitiator + AppConfig.currentSnapshotId.get());
 					}
 				Socket sendSocket = new Socket(receiverInfo.getIpAddress(), receiverInfo.getListenerPort());
 				

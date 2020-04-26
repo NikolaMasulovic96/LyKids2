@@ -3,9 +3,9 @@ package app.snapshot_bitcake;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.BiFunction;
 
 import app.AppConfig;
+import app.MapValueUpdater;
 import servent.message.Message;
 import servent.message.SnapshotIndicator;
 import servent.message.snapshot.LYMarkerMessage;
@@ -78,8 +78,6 @@ public class LaiYangBitcakeManager implements BitcakeManager {
 				MessageUtil.sendMessage(tellMessage);
 			}
 			
-			//SnapshotIndicator si = new SnapshotIndicator(collectorId, AppConfig.currentSnapshotId.get());
-
 			for (Integer neighbor : AppConfig.myServentInfo.getNeighbors()) {
 				Message clMarker = new LYMarkerMessage(AppConfig.myServentInfo, AppConfig.getInfoById(neighbor), collectorId,si);
 				MessageUtil.sendMessage(clMarker);
@@ -96,19 +94,19 @@ public class LaiYangBitcakeManager implements BitcakeManager {
 		}
 	}
 	
-	private class MapValueUpdater implements BiFunction<Integer, Integer, Integer> {
-		
-		private int valueToAdd;
-		
-		public MapValueUpdater(int valueToAdd) {
-			this.valueToAdd = valueToAdd;
-		}
-		
-		@Override
-		public Integer apply(Integer key, Integer oldValue) {
-			return oldValue + valueToAdd;
-		}
-	}
+//	public class MapValueUpdater implements BiFunction<Integer, Integer, Integer> {
+//		
+//		private int valueToAdd;
+//		
+//		public MapValueUpdater(int valueToAdd) {
+//			this.valueToAdd = valueToAdd;
+//		}
+//		
+//		@Override
+//		public Integer apply(Integer key, Integer oldValue) {
+//			return oldValue + valueToAdd;
+//		}
+//	}
 	
 	public void recordGiveTransaction(int neighbor, int amount) {
 		giveHistory.compute(neighbor, new MapValueUpdater(amount));

@@ -1,80 +1,80 @@
-18:56:51 - Starting servent [4|localhost|1500]
-18:56:51 - Pausing for 500 ms
-18:56:52 - Pausing for 15000 ms
-18:56:52 - Zapocet info
-18:56:53 - Got message [5|4|2|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|25|7|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|84|9|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|19|9|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|57|9|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|136|5|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|127|10|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|64|10|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|111|9|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|46|9|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|142|8|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Sending message [4|0|4|LY_MARKER|3|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|70|5|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|139|5|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|31|9|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|22|9|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|108|8|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|93|8|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|65|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|49|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|78|1|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|43|1|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|52|10|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|87|10|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:53 - Got message [5|90|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|71|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|130|5|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|66|5|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|16|6|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|13|6|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|133|5|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|37|9|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|40|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|10|8|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|115|8|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|7|2|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|73|1|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|95|9|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|100|6|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|53|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|1|8|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|125|8|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|113|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|122|7|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|77|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|148|1|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|28|10|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|96|4|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|34|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Sending message [4|1|4|LY_MARKER|5|SnapshotIndicator <initiatorId:-1, snap:-1>]
-18:56:54 - Got message [5|145|9|TRANSACTION|4|SnapshotIndicator <initiatorId:4, snap:0>]
-18:56:54 - Got message [5|107|7|TRANSACTION|4|SnapshotIndicator <initiatorId:4, snap:0>]
-18:56:55 - Got message [3|3|4|LY_MARKER|4|SnapshotIndicator <initiatorId:4, snap:0>]
-18:56:55 - Got message [5|152|4|LY_MARKER|4|SnapshotIndicator <initiatorId:4, snap:0>]
-18:56:55 - Got message [3|0||LY_TELL|4|SnapshotIndicator <initiatorId:4, snap:0>]
-18:56:55 - Got message [5|150||LY_TELL|4|SnapshotIndicator <initiatorId:4, snap:0>]
-18:56:55 - Got message [6|200||LY_TELL|4|SnapshotIndicator <initiatorId:4, snap:0>]
-18:56:55 - Got message [1|200||LY_TELL|4|SnapshotIndicator <initiatorId:4, snap:0>]
-18:56:56 - Got message [2|200||LY_TELL|4|SnapshotIndicator <initiatorId:4, snap:0>]
-18:56:57 - Got message [0|150||LY_TELL|4|SnapshotIndicator <initiatorId:4, snap:0>]
-18:56:59 - Recorded bitcake amount for 0 = 1115
-18:56:59 - Recorded bitcake amount for 1 = 696
-18:56:59 - Recorded bitcake amount for 2 = 535
-18:56:59 - Recorded bitcake amount for 3 = 1369
-18:56:59 - Recorded bitcake amount for 4 = 1000
-18:56:59 - Recorded bitcake amount for 5 = 428
-18:56:59 - Recorded bitcake amount for 6 = 1442
-18:56:59 - Unreceived bitcake amount: 174 from servent 2 to servent 3
-18:56:59 - Unreceived bitcake amount: -11 from servent 5 to servent 1
-18:56:59 - Unreceived bitcake amount: 288 from servent 5 to servent 4
-18:56:59 - Unreceived bitcake amount: -207 from servent 6 to servent 0
-18:56:59 - Unreceived bitcake amount: -6 from servent 6 to servent 2
-18:56:59 - Unreceived bitcake amount: 75 from servent 6 to servent 3
-18:56:59 - Unreceived bitcake amount: 102 from servent 6 to servent 5
-18:56:59 - System bitcake count: 7000
-18:57:07 - Stopping...
+23:47:06 - Starting servent [4|localhost|1500]
+23:47:06 - Pausing for 500 ms
+23:47:07 - Pausing for 15000 ms
+23:47:08 - Zapocet info
+23:47:08 - Got message [5|7|2|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|4|4|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|10|7|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|30|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|61|4|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|64|2|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|70|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|109|1|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|58|8|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|20|8|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|82|10|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|118|10|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|127|10|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|88|2|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|54|6|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|24|6|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|41|7|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|133|10|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|49|1|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:08 - Got message [5|16|4|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|51|8|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|112|6|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|142|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|26|10|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|121|2|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|130|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|13|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|67|6|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|76|8|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|47|2|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|136|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|79|4|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|39|3|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|148|1|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|94|10|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|124|1|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|139|10|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|97|7|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|91|2|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Sending message [4|1|4|LY_MARKER|5|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|40|9|TRANSACTION|4|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Sending message [4|0|4|LY_MARKER|3|SnapshotIndicator <initiatorId:-1, snap:-1>]
+23:47:09 - Got message [5|145|1|TRANSACTION|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:09 - Got message [5|85|7|TRANSACTION|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:09 - Got message [5|23|6|TRANSACTION|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:09 - Got message [5|115|9|TRANSACTION|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:09 - Got message [5|33|1|TRANSACTION|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:09 - Got message [5|106|2|TRANSACTION|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:09 - Got message [5|100|5|TRANSACTION|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:09 - Got message [5|103|10|TRANSACTION|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:09 - Got message [5|1|6|TRANSACTION|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:09 - Got message [5|73|6|TRANSACTION|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:10 - Got message [5|150||LY_TELL|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:10 - Got message [3|0||LY_TELL|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:10 - Got message [3|3|4|LY_MARKER|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:10 - Got message [5|152|4|LY_MARKER|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:11 - Got message [1|200||LY_TELL|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:11 - Got message [6|200||LY_TELL|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:11 - Got message [2|200||LY_TELL|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:11 - Got message [0|150||LY_TELL|4|SnapshotIndicator <initiatorId:4, snap:0>]
+23:47:13 - Recorded bitcake amount for 0 = 992
+23:47:13 - Recorded bitcake amount for 1 = 688
+23:47:13 - Recorded bitcake amount for 2 = 567
+23:47:13 - Recorded bitcake amount for 3 = 1554
+23:47:13 - Recorded bitcake amount for 4 = 1000
+23:47:13 - Recorded bitcake amount for 5 = 613
+23:47:13 - Recorded bitcake amount for 6 = 1033
+23:47:13 - Unreceived bitcake amount: 27 from servent 2 to servent 3
+23:47:13 - Unreceived bitcake amount: -50 from servent 5 to servent 1
+23:47:13 - Unreceived bitcake amount: 209 from servent 5 to servent 4
+23:47:13 - Unreceived bitcake amount: -63 from servent 5 to servent 6
+23:47:13 - Unreceived bitcake amount: 39 from servent 6 to servent 2
+23:47:13 - Unreceived bitcake amount: 178 from servent 6 to servent 3
+23:47:13 - Unreceived bitcake amount: 213 from servent 6 to servent 5
+23:47:13 - System bitcake count: 7000
+23:47:22 - Stopping...
