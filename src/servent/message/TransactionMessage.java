@@ -16,8 +16,8 @@ public class TransactionMessage extends BasicMessage {
 
 	private transient BitcakeManager bitcakeManager;
 	
-	public TransactionMessage(ServentInfo sender, ServentInfo receiver, int amount, BitcakeManager bitcakeManager) {
-		super(MessageType.TRANSACTION, sender, receiver, String.valueOf(amount));
+	public TransactionMessage(ServentInfo sender, ServentInfo receiver, int amount, BitcakeManager bitcakeManager,SnapshotIndicator snapshotIndicator) {
+		super(MessageType.TRANSACTION, sender, receiver, String.valueOf(amount),snapshotIndicator);
 		this.bitcakeManager = bitcakeManager;
 	}
 	

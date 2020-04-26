@@ -25,11 +25,13 @@ public class BasicMessage implements Message {
 	private final String messageText;
 	private final boolean white;
 	
+	private final SnapshotIndicator snpashotIndicator;
+	
 	//This gives us a unique id - incremented in every natural constructor.
 	private static AtomicInteger messageCounter = new AtomicInteger(0);
 	private final int messageId;
 	
-	public BasicMessage(MessageType type, ServentInfo originalSenderInfo, ServentInfo receiverInfo) {
+	public BasicMessage(MessageType type, ServentInfo originalSenderInfo, ServentInfo receiverInfo,SnapshotIndicator snpashotIndicator) {
 		this.type = type;
 		this.originalSenderInfo = originalSenderInfo;
 		this.receiverInfo = receiverInfo;
@@ -38,10 +40,12 @@ public class BasicMessage implements Message {
 		this.messageText = "";
 		
 		this.messageId = messageCounter.getAndIncrement();
+		
+		this.snpashotIndicator = snpashotIndicator;
 	}
 	
 	public BasicMessage(MessageType type, ServentInfo originalSenderInfo, ServentInfo receiverInfo,
-			String messageText) {
+			String messageText, SnapshotIndicator snpashotIndicator) {
 		this.type = type;
 		this.originalSenderInfo = originalSenderInfo;
 		this.receiverInfo = receiverInfo;
@@ -50,8 +54,18 @@ public class BasicMessage implements Message {
 		this.messageText = messageText;
 		
 		this.messageId = messageCounter.getAndIncrement();
+		this.snpashotIndicator = snpashotIndicator;
+
 	}
-	
+
+	public SnapshotIndicator getSpashotIndicator() {
+		return snpashotIndicator;
+	}
+
+	public static AtomicInteger getMessageCounter() {
+		return messageCounter;
+	}
+
 	@Override
 	public MessageType getMessageType() {
 		return type;
@@ -88,7 +102,7 @@ public class BasicMessage implements Message {
 	}
 	
 	protected BasicMessage(MessageType type, ServentInfo originalSenderInfo, ServentInfo receiverInfo,
-			boolean white, List<ServentInfo> routeList, String messageText, int messageId) {
+			boolean white, List<ServentInfo> routeList, String messageText, int messageId,SnapshotIndicator snpashotIndicator ) {
 		this.type = type;
 		this.originalSenderInfo = originalSenderInfo;
 		this.receiverInfo = receiverInfo;
@@ -97,6 +111,8 @@ public class BasicMessage implements Message {
 		this.messageText = messageText;
 		
 		this.messageId = messageId;
+		this.snpashotIndicator = snpashotIndicator;
+
 	}
 	
 	/**
@@ -111,7 +127,7 @@ public class BasicMessage implements Message {
 		List<ServentInfo> newRouteList = new ArrayList<>(routeList);
 		newRouteList.add(newRouteItem);
 		Message toReturn = new BasicMessage(getMessageType(), getOriginalSenderInfo(),
-				getReceiverInfo(), isWhite(), newRouteList, getMessageText(), getMessageId());
+				getReceiverInfo(), isWhite(), newRouteList, getMessageText(), getMessageId(),getSpashotIndicator());
 		
 		return toReturn;
 	}
@@ -126,7 +142,7 @@ public class BasicMessage implements Message {
 			ServentInfo newReceiverInfo = AppConfig.getInfoById(newReceiverId);
 			
 			Message toReturn = new BasicMessage(getMessageType(), getOriginalSenderInfo(),
-					newReceiverInfo, isWhite(), getRoute(), getMessageText(), getMessageId());
+					newReceiverInfo, isWhite(), getRoute(), getMessageText(), getMessageId(), getSpashotIndicator());
 			
 			return toReturn;
 		} else {
@@ -140,7 +156,7 @@ public class BasicMessage implements Message {
 	@Override
 	public Message setRedColor() {
 		Message toReturn = new BasicMessage(getMessageType(), getOriginalSenderInfo(),
-				getReceiverInfo(), false, getRoute(), getMessageText(), getMessageId());
+				getReceiverInfo(), false, getRoute(), getMessageText(), getMessageId(),getSpashotIndicator());
 		
 		return toReturn;
 	}
@@ -148,7 +164,7 @@ public class BasicMessage implements Message {
 	@Override
 	public Message setWhiteColor() {
 		Message toReturn = new BasicMessage(getMessageType(), getOriginalSenderInfo(),
-				getReceiverInfo(), true, getRoute(), getMessageText(), getMessageId());
+				getReceiverInfo(), true, getRoute(), getMessageText(), getMessageId(),getSpashotIndicator());
 		
 		return toReturn;
 	}
@@ -186,7 +202,7 @@ public class BasicMessage implements Message {
 	public String toString() {
 		return "[" + getOriginalSenderInfo().getId() + "|" + getMessageId() + "|" +
 					getMessageText() + "|" + getMessageType() + "|" +
-					getReceiverInfo().getId() + "]";
+					getReceiverInfo().getId() + "|"+ getSpashotIndicator().toString()+"]";
 	}
 
 	/**

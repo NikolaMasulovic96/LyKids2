@@ -18,26 +18,17 @@ import java.util.concurrent.atomic.AtomicBoolean;
  */
 public class AppConfig {
 
-	/**
-	 * Convenience access for this servent's information
-	 */
-	public static ServentInfo myServentInfo;
-	
-	private static List<ServentInfo> serventInfoList = new ArrayList<>();
 
-	/**
-	 * If this is true, the system is a clique - all nodes are each other's
-	 * neighbors. 
-	 */
+	public static ServentInfo myServentInfo;	
+	private static List<ServentInfo> serventInfoList = new ArrayList<>();
 	public static boolean IS_CLIQUE;
+	
+	
 	
 	public static AtomicBoolean isWhite = new AtomicBoolean(true);
 	public static Object colorLock = new Object();
 	
-	/**
-	 * Print a message to stdout with a timestamp
-	 * @param message message to print
-	 */
+
 	public static void timestampedStandardPrint(String message) {
 		DateFormat timeFormat = new SimpleDateFormat("HH:mm:ss");
 		Date now = new Date();

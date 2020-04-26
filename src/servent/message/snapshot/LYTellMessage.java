@@ -7,6 +7,7 @@ import app.snapshot_bitcake.LYSnapshotResult;
 import servent.message.BasicMessage;
 import servent.message.Message;
 import servent.message.MessageType;
+import servent.message.SnapshotIndicator;
 
 public class LYTellMessage extends BasicMessage {
 
@@ -14,8 +15,10 @@ public class LYTellMessage extends BasicMessage {
 
 	private LYSnapshotResult lySnapshotResult;
 	
+	static SnapshotIndicator si = new SnapshotIndicator(-1, -1);
+	
 	public LYTellMessage(ServentInfo sender, ServentInfo receiver, LYSnapshotResult lySnapshotResult) {
-		super(MessageType.LY_TELL, sender, receiver);
+		super(MessageType.LY_TELL, sender, receiver,si);
 		
 		this.lySnapshotResult = lySnapshotResult;
 	}
@@ -23,7 +26,7 @@ public class LYTellMessage extends BasicMessage {
 	private LYTellMessage(MessageType messageType, ServentInfo sender, ServentInfo receiver, 
 			boolean white, List<ServentInfo> routeList, String messageText, int messageId,
 			LYSnapshotResult lySnapshotResult) {
-		super(messageType, sender, receiver, white, routeList, messageText, messageId);
+		super(messageType, sender, receiver, white, routeList, messageText, messageId,si);
 		this.lySnapshotResult = lySnapshotResult;
 	}
 

@@ -4,6 +4,7 @@ import app.AppConfig;
 import app.ServentInfo;
 import app.snapshot_bitcake.BitcakeManager;
 import servent.message.Message;
+import servent.message.SnapshotIndicator;
 import servent.message.TransactionMessage;
 import servent.message.util.MessageUtil;
 
@@ -39,8 +40,9 @@ public class TransactionBurstCommand implements CLICommand {
 					 * The sending might be delayed, so we want to make sure we do the
 					 * reducing at the right time, not earlier.
 					 */
+					SnapshotIndicator si = new SnapshotIndicator(-1, -1);
 					Message transactionMessage = new TransactionMessage(
-							AppConfig.myServentInfo, neighborInfo, amount, bitcakeManager);
+							AppConfig.myServentInfo, neighborInfo, amount, bitcakeManager,si);
 					
 					MessageUtil.sendMessage(transactionMessage);
 				}
