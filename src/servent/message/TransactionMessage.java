@@ -1,5 +1,6 @@
 package servent.message;
 
+import app.AppConfig;
 import app.ServentInfo;
 import app.snapshot_bitcake.BitcakeManager;
 import app.snapshot_bitcake.LaiYangBitcakeManager;
@@ -20,6 +21,7 @@ public class TransactionMessage extends BasicMessage {
 		super(MessageType.TRANSACTION, sender, receiver, String.valueOf(amount),snapshotIndicator);
 		this.bitcakeManager = bitcakeManager;
 	}
+	
 	
 	/**
 	 * We want to take away our amount exactly as we are sending, so our snapshots don't mess up.

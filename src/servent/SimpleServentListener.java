@@ -6,6 +6,7 @@ import java.net.Socket;
 import java.net.SocketTimeoutException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -20,6 +21,8 @@ import servent.handler.snapshot.LYMarkerHandler;
 import servent.handler.snapshot.LYTellHandler;
 import servent.message.Message;
 import servent.message.MessageType;
+import servent.message.SnapshotIndicator;
+import servent.message.snapshot.LYMarkerMessage;
 import servent.message.util.MessageUtil;
 
 public class SimpleServentListener implements Runnable, Cancellable {
@@ -86,10 +89,16 @@ public class SimpleServentListener implements Runnable, Cancellable {
 							redMessages.add(clientMessage);
 							continue;
 						} else {
-							LaiYangBitcakeManager lyFinancialManager =
-									(LaiYangBitcakeManager)snapshotCollector.getBitcakeManager();
-							lyFinancialManager.markerEvent(
-									Integer.parseInt(clientMessage.getMessageText()), snapshotCollector);
+							Integer snapId = 0;
+							for (Map.Entry<Integer,SnapshotIndicator> entry : AppConfig.snapshotIndicators.entrySet()) {
+								if(entry.getKey() == clientMessage.getOriginalSenderInfo().getId()) {
+									snapId = entry.getValue().getSnapshotId();
+									AppConfig.timestampedStandardPrint("Pronasao snapID:" + snapId);
+								}
+							}
+							SnapshotIndicator si = new SnapshotIndicator(clientMessage.getOriginalSenderInfo().getId(), snapId);
+							LaiYangBitcakeManager lyFinancialManager =(LaiYangBitcakeManager)snapshotCollector.getBitcakeManager();
+							lyFinancialManager.markerEvent(Integer.parseInt(clientMessage.getMessageText()), snapshotCollector,si);
 						}
 					}
 				}

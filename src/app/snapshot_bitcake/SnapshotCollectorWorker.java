@@ -6,6 +6,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 import app.AppConfig;
+import servent.message.SnapshotIndicator;
 
 /**
  * Main snapshot collector class. Has support for Naive, Chandy-Lamport
@@ -61,7 +62,8 @@ public class SnapshotCollectorWorker implements SnapshotCollector {
 			 */
 			
 			//1 send asks
-			((LaiYangBitcakeManager)bitcakeManager).markerEvent(AppConfig.myServentInfo.getId(), this);
+			AppConfig.timestampedStandardPrint("Zapocet info");
+			((LaiYangBitcakeManager)bitcakeManager).markerEvent(AppConfig.myServentInfo.getId(), this,null);
 			
 			//2 wait for responses or finish
 			boolean waiting = true;

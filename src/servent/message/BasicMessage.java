@@ -25,7 +25,7 @@ public class BasicMessage implements Message {
 	private final String messageText;
 	private final boolean white;
 	
-	private final SnapshotIndicator snpashotIndicator;
+	private SnapshotIndicator snpashotIndicator;
 	
 	//This gives us a unique id - incremented in every natural constructor.
 	private static AtomicInteger messageCounter = new AtomicInteger(0);
@@ -60,6 +60,10 @@ public class BasicMessage implements Message {
 
 	public SnapshotIndicator getSpashotIndicator() {
 		return snpashotIndicator;
+	}
+
+	public static void setMessageCounter(AtomicInteger messageCounter) {
+		BasicMessage.messageCounter = messageCounter;
 	}
 
 	public static AtomicInteger getMessageCounter() {
@@ -210,6 +214,12 @@ public class BasicMessage implements Message {
 	 */
 	@Override
 	public void sendEffect() {
+		
+	}
+
+	@Override
+	public void setSnapshotIndicator(SnapshotIndicator snap) {
+		this.snpashotIndicator = snap;
 		
 	}
 }

@@ -6,10 +6,16 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
+
+import servent.message.SnapshotIndicator;
 
 /**
  * This class contains all the global application configuration stuff.
@@ -23,7 +29,11 @@ public class AppConfig {
 	private static List<ServentInfo> serventInfoList = new ArrayList<>();
 	public static boolean IS_CLIQUE;
 	
+	//novo -> cuvanje snap istorije
+	public static Map<Integer,SnapshotIndicator> snapshotIndicators = Collections.synchronizedMap(new HashMap<Integer,SnapshotIndicator>());
 	
+	public static AtomicInteger currentSnapshotId = new AtomicInteger(-1);
+	public static Integer currentSnapshotInitiator = -1;
 	
 	public static AtomicBoolean isWhite = new AtomicBoolean(true);
 	public static Object colorLock = new Object();
@@ -96,6 +106,8 @@ public class AppConfig {
 			snapshotType = "none";
 		}
 		
+		
+		
 		for (int i = 0; i < serventCount; i++) {
 			String portProperty = "servent"+i+".port";
 			
@@ -107,6 +119,20 @@ public class AppConfig {
 				timestampedErrorPrint("Problem reading " + portProperty + ". Exiting...");
 				System.exit(0);
 			}
+			
+			//*************************
+			String initiators = properties.getProperty("initiators");
+			if(initiators == null) {
+				timestampedErrorPrint("Initiators are not provided!");
+			}else {
+				String[] initiatorsIds = initiators.split(",");
+				for (String ind : initiatorsIds) {
+					SnapshotIndicator snapshopIndicator = new SnapshotIndicator(Integer.parseInt(ind),0);
+					snapshotIndicators.putIfAbsent(Integer.parseInt(ind), snapshopIndicator);
+				}
+			}
+			timestampedErrorPrint("Initiators are :" + snapshotIndicators.toString());
+			
 			
 			List<Integer> neighborList = new ArrayList<>();
 			if (IS_CLIQUE) {

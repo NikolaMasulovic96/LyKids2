@@ -7,6 +7,7 @@ import java.util.function.BiFunction;
 
 import app.AppConfig;
 import servent.message.Message;
+import servent.message.SnapshotIndicator;
 import servent.message.snapshot.LYMarkerMessage;
 import servent.message.snapshot.LYTellMessage;
 import servent.message.util.MessageUtil;
@@ -43,10 +44,22 @@ public class LaiYangBitcakeManager implements BitcakeManager {
 	 */
 	public int recordedAmount = 0;
 	
-	public void markerEvent(int collectorId, SnapshotCollector snapshotCollector) {
+	public void markerEvent(int collectorId, SnapshotCollector snapshotCollector,SnapshotIndicator snapshotIndicator) {
 		synchronized (AppConfig.colorLock) {
 			AppConfig.isWhite.set(false);
 			recordedAmount = getCurrentBitcakeAmount();
+			SnapshotIndicator si = new SnapshotIndicator(collectorId, 0);
+
+			if(snapshotCollector == null) {
+				Integer snapId = 0;
+				for (Map.Entry<Integer,SnapshotIndicator> entry : AppConfig.snapshotIndicators.entrySet()) {
+					if(entry.getKey() == collectorId) {
+						snapId = entry.getValue().getSnapshotId();
+						AppConfig.timestampedStandardPrint("Pronasao snapID:" + snapId);
+					}
+				}
+				si.setSnapshotId(snapId);
+			}
 
 			LYSnapshotResult snapshotResult = new LYSnapshotResult(
 					AppConfig.myServentInfo.getId(), recordedAmount, giveHistory, getHistory);
@@ -56,15 +69,19 @@ public class LaiYangBitcakeManager implements BitcakeManager {
 						AppConfig.myServentInfo.getId(),
 						snapshotResult);
 			} else {
-			
+				AppConfig.currentSnapshotInitiator = collectorId;
+				AppConfig.currentSnapshotId.set(si.getSnapshotId());
+				AppConfig.timestampedStandardPrint("SETOVAO SNAP PROP:" + AppConfig.currentSnapshotInitiator + AppConfig.currentSnapshotId.get());
 				Message tellMessage = new LYTellMessage(
-						AppConfig.myServentInfo, AppConfig.getInfoById(collectorId), snapshotResult);
+						AppConfig.myServentInfo, AppConfig.getInfoById(collectorId), snapshotResult,si);
 				
 				MessageUtil.sendMessage(tellMessage);
 			}
 			
+			//SnapshotIndicator si = new SnapshotIndicator(collectorId, AppConfig.currentSnapshotId.get());
+
 			for (Integer neighbor : AppConfig.myServentInfo.getNeighbors()) {
-				Message clMarker = new LYMarkerMessage(AppConfig.myServentInfo, AppConfig.getInfoById(neighbor), collectorId);
+				Message clMarker = new LYMarkerMessage(AppConfig.myServentInfo, AppConfig.getInfoById(neighbor), collectorId,si);
 				MessageUtil.sendMessage(clMarker);
 				try {
 					/*

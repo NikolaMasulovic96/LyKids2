@@ -7,6 +7,7 @@ import java.net.Socket;
 import app.AppConfig;
 import app.ServentInfo;
 import servent.message.Message;
+import servent.message.SnapshotIndicator;
 
 /**
  * This worker sends a message asynchronously. Doing this in a separate thread
@@ -36,9 +37,7 @@ public class DelayedMessageSender implements Runnable {
 		
 		ServentInfo receiverInfo = messageToSend.getReceiverInfo();
 		
-		if (MessageUtil.MESSAGE_UTIL_PRINTING) {
-			AppConfig.timestampedStandardPrint("Sending message " + messageToSend);
-		}
+		
 		
 		try {
 			/*
@@ -50,9 +49,17 @@ public class DelayedMessageSender implements Runnable {
 			 * to override setRedColor() because of this.
 			 */
 			synchronized (AppConfig.colorLock) {
-				if (AppConfig.isWhite.get() == false) {
-					messageToSend = messageToSend.setRedColor();
-				}
+				
+					//messageToSend = messageToSend.setRedColor();
+					//AppConfig.timestampedStandardPrint(AppConfig.currentSnapshotInitiator + " " +AppConfig.currentSnapshotId.get()+ "Steva Spears");
+					SnapshotIndicator snap =  new SnapshotIndicator(AppConfig.currentSnapshotInitiator, AppConfig.currentSnapshotId.get());
+					messageToSend.setSnapshotIndicator(snap);
+//					AppConfig.timestampedStandardPrint(snap.toString() + "Steva Spears");
+
+					if (MessageUtil.MESSAGE_UTIL_PRINTING) {
+						AppConfig.timestampedStandardPrint("Sending message " + messageToSend);
+						//AppConfig.timestampedStandardPrint("with parameters: " + AppConfig.currentSnapshotInitiator + AppConfig.currentSnapshotId.get());
+					}
 				Socket sendSocket = new Socket(receiverInfo.getIpAddress(), receiverInfo.getListenerPort());
 				
 				ObjectOutputStream oos = new ObjectOutputStream(sendSocket.getOutputStream());
@@ -63,6 +70,7 @@ public class DelayedMessageSender implements Runnable {
 				
 				messageToSend.sendEffect();
 			}
+			
 		} catch (IOException e) {
 			AppConfig.timestampedErrorPrint("Couldn't send message: " + messageToSend.toString());
 		}
