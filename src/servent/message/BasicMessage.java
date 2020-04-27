@@ -222,4 +222,9 @@ public class BasicMessage implements Message {
 		this.snpashotIndicator = snap;
 		
 	}
+
+	@Override
+	public SnapshotIndicator getSnapshotIndicator() {
+		return this.snpashotIndicator;
+	}
 }

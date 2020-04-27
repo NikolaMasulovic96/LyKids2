@@ -33,6 +33,7 @@ public class AppConfig {
 	public static Map<Integer,SnapshotIndicator> snapshotIndicators = Collections.synchronizedMap(new HashMap<Integer,SnapshotIndicator>());
 	
 	public static Map<Integer, SnapshotGlobalInfo> globalSnapshotsInfos = Collections.synchronizedMap(new HashMap<Integer,SnapshotGlobalInfo>());
+	public static List<ServentStatusInfo> currSnapshotResults = Collections.synchronizedList(new ArrayList<>());
 	
 	public static AtomicInteger currentSnapshotId = new AtomicInteger(-1);
 	public static Integer currentSnapshotInitiator = -1;

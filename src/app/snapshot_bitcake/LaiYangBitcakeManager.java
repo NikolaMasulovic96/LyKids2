@@ -6,6 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import app.AppConfig;
 import app.MapValueUpdater;
+import app.ServentStatusInfo;
 import servent.message.Message;
 import servent.message.SnapshotIndicator;
 import servent.message.snapshot.LYMarkerMessage;
@@ -55,7 +56,6 @@ public class LaiYangBitcakeManager implements BitcakeManager {
 				for (Map.Entry<Integer,SnapshotIndicator> entry : AppConfig.snapshotIndicators.entrySet()) {
 					if(entry.getKey() == collectorId) {
 						snapId = entry.getValue().getSnapshotId();
-						AppConfig.timestampedStandardPrint("Pronasao snapID:" + snapId);
 					}
 				}
 				si.setSnapshotId(snapId);
@@ -68,12 +68,12 @@ public class LaiYangBitcakeManager implements BitcakeManager {
 				snapshotCollector.addLYSnapshotInfo(
 						AppConfig.myServentInfo.getId(),
 						snapshotResult);
+				AppConfig.currSnapshotResults.add(AppConfig.getSnapshotGlobalInfo(collectorId, si.getSnapshotId(), collectorId));
 			} else {
 				AppConfig.currentSnapshotInitiator = collectorId;
 				AppConfig.currentSnapshotId.set(si.getSnapshotId());
-				AppConfig.timestampedStandardPrint("SETOVAO SNAP PROP:" + AppConfig.currentSnapshotInitiator + AppConfig.currentSnapshotId.get());
-				Message tellMessage = new LYTellMessage(
-						AppConfig.myServentInfo, AppConfig.getInfoById(collectorId), snapshotResult,si);
+				ServentStatusInfo snapInfo = AppConfig.getSnapshotGlobalInfo(collectorId, si.getSnapshotId(), AppConfig.myServentInfo.getId());
+				Message tellMessage = new LYTellMessage(AppConfig.myServentInfo, AppConfig.getInfoById(collectorId), snapshotResult,si,snapInfo);
 				
 				MessageUtil.sendMessage(tellMessage);
 			}
@@ -109,6 +109,8 @@ public class LaiYangBitcakeManager implements BitcakeManager {
 //	}
 	
 	public void recordGiveTransaction(int neighbor, int amount) {
+		AppConfig.timestampedErrorPrint("----Zapisao sam da sam dao:"+AppConfig.myServentInfo.getId()+" - " + neighbor+" ="+amount);
+		AppConfig.timestampedErrorPrint("*********************************************************************************************");
 		giveHistory.compute(neighbor, new MapValueUpdater(amount));
 	}
 	

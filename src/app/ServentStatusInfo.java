@@ -6,7 +6,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
 
-public class ServentStatusInfo implements Serializable{
+public class ServentStatusInfo implements Serializable,Comparable<ServentStatusInfo>{
 
 	/**
 	 * 
@@ -14,7 +14,7 @@ public class ServentStatusInfo implements Serializable{
 	private static final long serialVersionUID = 3191281875535676471L;
 	
 	private int serventId;
-	private AtomicInteger currentAmount = new AtomicInteger(0);
+	private AtomicInteger currentAmount = new AtomicInteger(1000);
 	private Map<Integer, Integer> giveHistory = new ConcurrentHashMap<>();
 	private Map<Integer, Integer> getHistory = new ConcurrentHashMap<>();
 	
@@ -30,10 +30,12 @@ public class ServentStatusInfo implements Serializable{
 	
 	public void updateGive(int neighbor, int amount) {
 		giveHistory.compute(neighbor, new MapValueUpdater(amount));
+		currentAmount.set(currentAmount.get() - amount);
 	}
 	
 	public void updateGet(int neighbor, int amount) {
 		getHistory.compute(neighbor, new MapValueUpdater(amount));
+		currentAmount.set(currentAmount.get() + amount);
 	}
 
 	public int getServentId() {
@@ -72,5 +74,11 @@ public class ServentStatusInfo implements Serializable{
 	public String toString() {
 		return "ServentStatusInfo [serventId=" + serventId + ", currentAmount=" + currentAmount + ", giveHistory="
 				+ giveHistory + ", getHistory=" + getHistory + "]";
+	}
+
+	@Override
+	public int compareTo(ServentStatusInfo o) {
+		// TODO Auto-generated method stub
+		return o.serventId >= serventId ? -1 : 0;
 	}
 }

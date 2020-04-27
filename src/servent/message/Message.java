@@ -97,6 +97,8 @@ public interface Message extends Serializable {
 	
 	void setSnapshotIndicator(SnapshotIndicator snap);
 	
+    SnapshotIndicator getSnapshotIndicator();
+	
 	/**
 	 * This method is invoked by the frameworks sender code. It is invoked
 	 * exactly before the message is being sent. If the message was held up

@@ -64,7 +64,7 @@ public class DelayedMessageSender implements Runnable {
 				oos.flush();
 				
 				sendSocket.close();
-				
+				AppConfig.timestampedErrorPrint("//////msgID:" + messageToSend.getMessageId());
 				messageToSend.sendEffect();
 			}
 			

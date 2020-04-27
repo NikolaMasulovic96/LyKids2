@@ -3,6 +3,7 @@ package servent.message.snapshot;
 import java.util.List;
 
 import app.ServentInfo;
+import app.ServentStatusInfo;
 import app.snapshot_bitcake.LYSnapshotResult;
 import servent.message.BasicMessage;
 import servent.message.Message;
@@ -17,19 +18,22 @@ public class LYTellMessage extends BasicMessage {
 	
 	private SnapshotIndicator si;
 	
-	public LYTellMessage(ServentInfo sender, ServentInfo receiver, LYSnapshotResult lySnapshotResult,SnapshotIndicator si) {
+	private ServentStatusInfo snapInfo;
+	
+	public LYTellMessage(ServentInfo sender, ServentInfo receiver, LYSnapshotResult lySnapshotResult,SnapshotIndicator si,ServentStatusInfo snapInfo) {
 		super(MessageType.LY_TELL, sender, receiver,si);
-		
+		this.snapInfo = snapInfo;
 		this.lySnapshotResult = lySnapshotResult;
 		this.si =si;
 	}
 	
 	private LYTellMessage(MessageType messageType, ServentInfo sender, ServentInfo receiver, 
 			boolean white, List<ServentInfo> routeList, String messageText, int messageId,
-			LYSnapshotResult lySnapshotResult, SnapshotIndicator si) {
+			LYSnapshotResult lySnapshotResult, SnapshotIndicator si, ServentStatusInfo snapInfo) {
 		super(messageType, sender, receiver, white, routeList, messageText, messageId,si);
 		this.lySnapshotResult = lySnapshotResult;
 		this.si = si;
+		this.snapInfo = snapInfo;
 	}
 
 	public LYSnapshotResult getLYSnapshotResult() {
@@ -40,10 +44,18 @@ public class LYTellMessage extends BasicMessage {
 		return si;
 	}
 
+	public ServentStatusInfo getSnapInfo() {
+		return snapInfo;
+	}
+
+	public void setSnapInfo(ServentStatusInfo snapInfo) {
+		this.snapInfo = snapInfo;
+	}
+
 	@Override
 	public Message setRedColor() {
 		Message toReturn = new LYTellMessage(getMessageType(), getOriginalSenderInfo(), getReceiverInfo(),
-				false, getRoute(), getMessageText(), getMessageId(), getLYSnapshotResult(),getSi());
+				false, getRoute(), getMessageText(), getMessageId(), getLYSnapshotResult(),getSi(),getSnapInfo());
 		return toReturn;
 	}
 }
