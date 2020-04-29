@@ -30,6 +30,20 @@ public class SnapshotCollectorWorker implements SnapshotCollector {
 
 	public SnapshotCollectorWorker() {
 		bitcakeManager = new LaiYangBitcakeManager();
+		for(Integer i : AppConfig.potentialInitiators) {
+			SnapshotIndicator si = new SnapshotIndicator(i, 0);
+			ServentStatusInfo snapStatus = new ServentStatusInfo(AppConfig.myServentInfo.getId());
+			boolean has = false;
+			for (Map.Entry<SnapshotIndicator,ServentStatusInfo> entry : AppConfig.snapshotIndicators.entrySet()) {
+				if(entry.getKey().getInitiatorId() == si.getInitiatorId() && entry.getKey().getSnapshotId() == si.getSnapshotId()) {
+					has = true;
+				}
+			}
+			if(!has) {
+				AppConfig.snapshotIndicators.putIfAbsent(si, snapStatus);
+			}
+			//AppConfig.timestampedErrorPrint("1-"+AppConfig.snapshotIndicators);
+		}
 	}
 	
 	@Override
@@ -66,7 +80,7 @@ public class SnapshotCollectorWorker implements SnapshotCollector {
 			
 			//1 send asks
 			AppConfig.timestampedStandardPrint("Zapocet info");
-			((LaiYangBitcakeManager)bitcakeManager).markerEvent(AppConfig.myServentInfo.getId(), this,null);
+			((LaiYangBitcakeManager)bitcakeManager).markerEvent(AppConfig.myServentInfo.getId(), this,AppConfig.currentSnapshotIndicator);
 			
 			//2 wait for responses or finish
 			boolean waiting = true;
@@ -115,36 +129,63 @@ public class SnapshotCollectorWorker implements SnapshotCollector {
 			//moje razunanje
 			int sum2;
 			sum2 = 0;
-			Collections.sort(AppConfig.currSnapshotResults);
-			AppConfig.timestampedErrorPrint("LISY:" + AppConfig.currSnapshotResults);
+//			Collections.sort(AppConfig.currSnapshotResults);
+//			AppConfig.timestampedErrorPrint("LISY:" + AppConfig.currSnapshotResults);
 			for (ServentStatusInfo infos : AppConfig.currSnapshotResults) {
-				sum2 += infos.getCurrentAmount().get();
-				AppConfig.timestampedErrorPrint("Recorded bitcake amount for " + infos.getServentId() + " = " + infos.getCurrentAmount().get());
+				
+				if(infos != null) {
+					sum2 += infos.getCurrentAmount().get();
+					AppConfig.timestampedErrorPrint("Recorded bitcake amount for " + infos.toString());
+				}else {
+					AppConfig.timestampedErrorPrint("greska");
+				}
 			}
-			
-			for(int i = 0; i < AppConfig.getServentCount(); i++) {
-				for (int j = 0; j < AppConfig.getServentCount(); j++) {
-					if (i != j) {
-//						if (AppConfig.getInfoById(i).getNeighbors().contains(j) &&
-//							AppConfig.getInfoById(j).getNeighbors().contains(i)) {
-							try {
-								int ijAmount = AppConfig.currSnapshotResults.get(i).getGiveHistory().get(j);
-								int jiAmount = AppConfig.currSnapshotResults.get(j).getGetHistory().get(i);
-								if (ijAmount != jiAmount) {
-									String outputString = String.format(
-											"Unreceived bitcake amount: %d from servent %d to servent %d",
-											ijAmount - jiAmount, i, j);
-									AppConfig.timestampedErrorPrint(outputString);
-									sum2 += ijAmount - jiAmount;
-								}
-							} catch (Exception e) {
-								// TODO: handle exception
-							}
-							
-						//}
+			for(ServentStatusInfo info : AppConfig.currSnapshotResults) {
+				List<Integer> neighbors = AppConfig.getInfoById(info.getServentId()).getNeighbors();
+				for(int i = 0; i < neighbors.size(); i++) {
+					//AppConfig.timestampedErrorPrint("MyINfo:"+ info);
+					ServentStatusInfo neighborInfo = AppConfig.getResult(neighbors.get(i));
+					//AppConfig.timestampedErrorPrint("MyNeig:"+neighborInfo);
+					//AppConfig.timestampedErrorPrint("#" + info.getGiveHistory() + "-" + neighbors.get(i));
+					//AppConfig.timestampedErrorPrint("%" + neighborInfo.getGetHistory() + "-" + info.getServentId());
+					int amount1 = info.getGiveHistory().get(neighbors.get(i));
+					int amount2 = neighborInfo.getGetHistory().get(info.getServentId());
+					//AppConfig.timestampedErrorPrint("Razlika else"+amount1 +" " +amount2);
+					if (amount1 != amount2) {
+						String outputString = String.format(
+								"Unreceived bitcake amount: %d from servent %d to servent %d",
+								amount1 - amount2, info.getServentId(), neighborInfo.getServentId());
+						AppConfig.timestampedErrorPrint(outputString);
+						sum2 += amount1 - amount2;
+					}else {
+						//AppConfig.timestampedErrorPrint("Razlika else"+(amount1 - amount2));
 					}
 				}
 			}
+			
+//			for(int i = 0; i < AppConfig.getServentCount(); i++) {
+//				for (int j = 0; j < AppConfig.getServentCount(); j++) {
+//					if (i != j) {
+//						if (AppConfig.getInfoById(i).getNeighbors().contains(j) &&
+//							AppConfig.getInfoById(j).getNeighbors().contains(i)) {
+//							try {
+//								int ijAmount = AppConfig.currSnapshotResults.get(i).getGiveHistory().get(j);
+//								int jiAmount = AppConfig.currSnapshotResults.get(j).getGetHistory().get(i);
+//								AppConfig.timestampedErrorPrint("Proveravam:"+i + "-"+j);
+//								if (ijAmount != jiAmount) {
+//									String outputString = String.format(
+//											"Unreceived bitcake amount: %d from servent %d to servent %d",
+//											ijAmount - jiAmount, i, j);
+//									AppConfig.timestampedErrorPrint(outputString);
+//									sum2 += ijAmount - jiAmount;
+//								}
+//							} catch (Exception e) {
+//								// TODO: handle exception
+//							}
+//						}
+//					}
+//				}
+//			}
 			
 			
 			AppConfig.timestampedStandardPrint("System bitcake count: " + sum);
@@ -152,6 +193,9 @@ public class SnapshotCollectorWorker implements SnapshotCollector {
 			
 			collectedLYValues.clear(); //reset for next invocation
 			collecting.set(false);
+			//AppConfig.snapsotsInfo.clear();
+			AppConfig.snapshotIndicators.clear();
+			AppConfig.currSnapshotResults.clear();
 		}
 
 	}

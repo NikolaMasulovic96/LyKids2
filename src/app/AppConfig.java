@@ -26,17 +26,19 @@ public class AppConfig {
 
 
 	public static ServentInfo myServentInfo;	
-	private static List<ServentInfo> serventInfoList = new ArrayList<>();
+	public static List<ServentInfo> serventInfoList = new ArrayList<>();
+	public static AtomicInteger serventCount = new AtomicInteger(-1);
 	public static boolean IS_CLIQUE;
 	
+	public static  List<Integer> potentialInitiators = new ArrayList<>();
 	//novo -> cuvanje snap istorije
-	public static Map<Integer,SnapshotIndicator> snapshotIndicators = Collections.synchronizedMap(new HashMap<Integer,SnapshotIndicator>());
-	
-	public static Map<Integer, SnapshotGlobalInfo> globalSnapshotsInfos = Collections.synchronizedMap(new HashMap<Integer,SnapshotGlobalInfo>());
+	public static Map<SnapshotIndicator,ServentStatusInfo> snapshotIndicators = Collections.synchronizedMap(new HashMap<SnapshotIndicator,ServentStatusInfo>());
 	public static List<ServentStatusInfo> currSnapshotResults = Collections.synchronizedList(new ArrayList<>());
+	public static SnapshotIndicator currentSnapshotIndicator = new SnapshotIndicator(-1, -1);
 	
-	public static AtomicInteger currentSnapshotId = new AtomicInteger(-1);
-	public static Integer currentSnapshotInitiator = -1;
+	//public static Map<SnapshotIndicator, ServentStatusInfo> snapsotsInfo = Collections.synchronizedMap(new HashMap<SnapshotIndicator,ServentStatusInfo>());
+	//public static AtomicInteger currentSnapshotId = new AtomicInteger(-1);
+	//public static Integer currentSnapshotInitiator = -1;
 	
 	public static AtomicBoolean isWhite = new AtomicBoolean(true);
 	public static Object colorLock = new Object();
@@ -93,7 +95,7 @@ public class AppConfig {
 		
 		int serventCount = -1;
 		try {
-			serventCount = Integer.parseInt(properties.getProperty("servent_count"));
+			AppConfig.serventCount.set(Integer.parseInt(properties.getProperty("servent_count")));
 		} catch (NumberFormatException e) {
 			timestampedErrorPrint("Problem reading servent_count. Exiting...");
 			System.exit(0);
@@ -105,7 +107,7 @@ public class AppConfig {
 			snapshotType = "none";
 		}
 				
-		for (int i = 0; i < serventCount; i++) {
+		for (int i = 0; i < AppConfig.serventCount.get(); i++) {
 			String portProperty = "servent"+i+".port";
 			
 			int serventPort = -1;
@@ -124,8 +126,8 @@ public class AppConfig {
 			}else {
 				String[] initiatorsIds = initiators.split(",");
 				for (String ind : initiatorsIds) {
-					SnapshotIndicator snapshopIndicator = new SnapshotIndicator(Integer.parseInt(ind),0);
-					snapshotIndicators.putIfAbsent(Integer.parseInt(ind), snapshopIndicator);
+					AppConfig.timestampedErrorPrint("Pravim ovoliko inicijatora " + ind);
+					AppConfig.potentialInitiators.add(Integer.parseInt(ind));
 				}
 			}
 			
@@ -133,7 +135,7 @@ public class AppConfig {
 			
 			List<Integer> neighborList = new ArrayList<>();
 			if (IS_CLIQUE) {
-				for(int j = 0; j < serventCount; j++) {
+				for(int j = 0; j < AppConfig.serventCount.get(); j++) {
 					if (j == i) {
 						continue;
 					}
@@ -162,13 +164,14 @@ public class AppConfig {
 			serventInfoList.add(newInfo);
 			//************************** svakom inicijatoru hocu da napravim globalSnaphots info 
 			//da svaki inicijator za snapshot ima pojam o svakom cvoru kakvo je stanje
-			if(serventInfoList.size() == serventCount) {
-				for (Map.Entry<Integer,SnapshotIndicator> entry : AppConfig.snapshotIndicators.entrySet()) {
-					SnapshotGlobalInfo globalInfo = new SnapshotGlobalInfo(entry.getValue().getSnapshotId());
-					globalSnapshotsInfos.putIfAbsent(entry.getKey(), globalInfo);
-				}
-				AppConfig.timestampedErrorPrint("222222222+++"+globalSnapshotsInfos.toString());
-			}
+			//if(serventInfoList.size() == serventCount) {
+				//for (Map.Entry<Integer,SnapshotIndicator> entry : AppConfig.snapshotIndicators.entrySet()) {
+					//AppConfig.timestampedErrorPrint(entry.toString());
+					//ServentStatusInfo serventStatusInfo = new ServentStatusInfo(AppConfig);
+					//snapsotsInfo.putIfAbsent(entry.getValue(), serventStatusInfo);
+				//}
+				//AppConfig.timestampedErrorPrint("222222222+++"+globalSnapshotsInfos.toString());
+			//}
 		}
 	}
 	
@@ -194,19 +197,25 @@ public class AppConfig {
 	public static List<ServentInfo> getServenInfoList(){
 		return serventInfoList;
 	}
-	public static ServentStatusInfo getSnapshotGlobalInfo(Integer initiatorId, int snapshot, int serventId) {
-		for (Map.Entry<Integer,SnapshotGlobalInfo> entry : AppConfig.globalSnapshotsInfos.entrySet()) {
-			if(entry.getKey() == initiatorId) {
-				SnapshotGlobalInfo info = entry.getValue();
-				if(info.getSnapshotId().get() == snapshot) {
-					for (ServentStatusInfo serventStatusInfo : info.getServentStatusInfos()) {
-						if(serventStatusInfo.getServentId() == serventId) {
-							return serventStatusInfo;
-						}
-					}
-				}
+	public static ServentStatusInfo getSnapshotGlobalInfo(Integer initiatorId, int snapshot) {
+
+		ServentStatusInfo s = null;
+		//AppConfig.timestampedErrorPrint("Vadim za:"+initiatorId+snapshot);
+		for (Map.Entry<SnapshotIndicator,ServentStatusInfo> entry : AppConfig.snapshotIndicators.entrySet()) {
+			if(entry.getKey().getInitiatorId() == initiatorId && entry.getKey().getSnapshotId() == snapshot) {
+				s = entry.getValue();
 			}
 		}
-		return null;
+		return s;
 	}	
+	public static ServentStatusInfo getResult(int serventId) {
+		ServentStatusInfo result = null;
+		for(ServentStatusInfo info : AppConfig.currSnapshotResults) {
+			if(info.getServentId() == serventId) {
+				result = info;
+			}
+		}
+		return result;
+	}
 }
+

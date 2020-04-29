@@ -12,6 +12,7 @@ import java.util.concurrent.Executors;
 
 import app.AppConfig;
 import app.Cancellable;
+import app.ServentStatusInfo;
 import app.snapshot_bitcake.LaiYangBitcakeManager;
 import app.snapshot_bitcake.SnapshotCollector;
 import servent.handler.MessageHandler;
@@ -90,9 +91,9 @@ public class SimpleServentListener implements Runnable, Cancellable {
 							continue;
 						} else {
 							Integer snapId = 0;
-							for (Map.Entry<Integer,SnapshotIndicator> entry : AppConfig.snapshotIndicators.entrySet()) {
-								if(entry.getKey() == clientMessage.getOriginalSenderInfo().getId()) {
-									snapId = entry.getValue().getSnapshotId();
+							for (Map.Entry<SnapshotIndicator,ServentStatusInfo> entry : AppConfig.snapshotIndicators.entrySet()) {
+								if(entry.getKey().getInitiatorId() == clientMessage.getOriginalSenderInfo().getId()) {
+									snapId = entry.getKey().getSnapshotId();
 									AppConfig.timestampedStandardPrint("Pronasao snapID:" + snapId);
 								}
 							}

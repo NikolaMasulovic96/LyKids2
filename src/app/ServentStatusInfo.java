@@ -8,9 +8,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class ServentStatusInfo implements Serializable,Comparable<ServentStatusInfo>{
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 3191281875535676471L;
 	
 	private int serventId;
@@ -27,15 +24,22 @@ public class ServentStatusInfo implements Serializable,Comparable<ServentStatusI
 			getHistory.put(neighbor, 0);
 		}
 	}
+
+	public ServentStatusInfo(ServentStatusInfo s) {
+		this.currentAmount.set(s.currentAmount.get());
+		this.getHistory = new ConcurrentHashMap<>(s.getHistory);
+		this.giveHistory = new ConcurrentHashMap<>(s.giveHistory);
+		this.serventId = s.serventId;
+	}
 	
 	public void updateGive(int neighbor, int amount) {
 		giveHistory.compute(neighbor, new MapValueUpdater(amount));
-		currentAmount.set(currentAmount.get() - amount);
+		currentAmount.getAndAdd(-amount);
 	}
 	
 	public void updateGet(int neighbor, int amount) {
 		getHistory.compute(neighbor, new MapValueUpdater(amount));
-		currentAmount.set(currentAmount.get() + amount);
+		currentAmount.getAndAdd(amount);
 	}
 
 	public int getServentId() {

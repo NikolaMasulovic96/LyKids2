@@ -25,13 +25,11 @@ public class LYTellHandler implements MessageHandler {
 			snapshotCollector.addLYSnapshotInfo(
 					lyTellMessage.getOriginalSenderInfo().getId(),
 					lyTellMessage.getLYSnapshotResult());
-			try {
-				LYTellMessage m = (LYTellMessage)clientMessage;
-				AppConfig.timestampedErrorPrint("GOT SNAP INFO:"+ m.getSnapInfo());
-				AppConfig.currSnapshotResults.add(m.getSnapInfo());
-			} catch (Exception e) {
-				AppConfig.timestampedErrorPrint("NE MEREM KASTOVAT OVO");
-			}
+
+				
+				AppConfig.timestampedErrorPrint("GOT SNAP INFO" +lyTellMessage.getMessageId() +":"+ lyTellMessage.getSnapInfo());
+				AppConfig.currSnapshotResults.add(lyTellMessage.getSnapInfo());
+
 			
 		} else {
 			AppConfig.timestampedErrorPrint("Tell amount handler got: " + clientMessage);

@@ -40,7 +40,7 @@ public class TransactionBurstCommand implements CLICommand {
 					 * The sending might be delayed, so we want to make sure we do the
 					 * reducing at the right time, not earlier.
 					 */
-					SnapshotIndicator si = new SnapshotIndicator(AppConfig.currentSnapshotInitiator,AppConfig.currentSnapshotId.get());
+					SnapshotIndicator si = new SnapshotIndicator(AppConfig.currentSnapshotIndicator.getInitiatorId(),AppConfig.currentSnapshotIndicator.getSnapshotId());
 					Message transactionMessage = new TransactionMessage(
 							AppConfig.myServentInfo, neighborInfo, amount, bitcakeManager,si);
 					

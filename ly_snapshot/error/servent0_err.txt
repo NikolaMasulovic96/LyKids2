@@ -1,1055 +1,158 @@
-00:11:58 - 222222222+++{4=SnapshotGlobalInfo [snapshotId=0, serventStatusInfos=[ServentStatusInfo [serventId=0, currentAmount=1000, giveHistory={1=0, 2=0, 6=0}, getHistory={1=0, 2=0, 6=0}], ServentStatusInfo [serventId=1, currentAmount=1000, giveHistory={0=0, 2=0, 3=0, 5=0}, getHistory={0=0, 2=0, 3=0, 5=0}], ServentStatusInfo [serventId=2, currentAmount=1000, giveHistory={0=0, 1=0, 3=0, 6=0}, getHistory={0=0, 1=0, 3=0, 6=0}], ServentStatusInfo [serventId=3, currentAmount=1000, giveHistory={1=0, 2=0, 4=0, 6=0}, getHistory={1=0, 2=0, 4=0, 6=0}], ServentStatusInfo [serventId=4, currentAmount=1000, giveHistory={3=0, 5=0}, getHistory={3=0, 5=0}], ServentStatusInfo [serventId=5, currentAmount=1000, giveHistory={1=0, 4=0, 6=0}, getHistory={1=0, 4=0, 6=0}], ServentStatusInfo [serventId=6, currentAmount=1000, giveHistory={0=0, 2=0, 3=0, 5=0}, getHistory={0=0, 2=0, 3=0, 5=0}]]]}
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1000, giveHistory={1=0, 2=0, 6=0}, getHistory={1=0, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =3 /// msgID:168
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1003, giveHistory={1=0, 2=0, 6=0}, getHistory={1=3, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =5 /// msgID:54
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1008, giveHistory={1=0, 2=0, 6=0}, getHistory={1=8, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =6 /// msgID:105
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1014, giveHistory={1=0, 2=0, 6=0}, getHistory={1=14, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =10 /// msgID:80
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1024, giveHistory={1=0, 2=0, 6=0}, getHistory={1=24, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =9 /// msgID:122
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1033, giveHistory={1=0, 2=0, 6=0}, getHistory={1=33, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =5 /// msgID:33
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1038, giveHistory={1=0, 2=0, 6=0}, getHistory={1=38, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =3 /// msgID:142
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1041, giveHistory={1=0, 2=0, 6=0}, getHistory={1=41, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =8 /// msgID:2
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1049, giveHistory={1=0, 2=0, 6=0}, getHistory={1=49, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =2 /// msgID:45
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1051, giveHistory={1=0, 2=0, 6=0}, getHistory={1=51, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =9 /// msgID:153
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1060, giveHistory={1=0, 2=0, 6=0}, getHistory={1=60, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =1 /// msgID:78
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1061, giveHistory={1=0, 2=0, 6=0}, getHistory={1=61, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =8 /// msgID:84
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1069, giveHistory={1=0, 2=0, 6=0}, getHistory={1=69, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =1 /// msgID:26
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1070, giveHistory={1=0, 2=0, 6=0}, getHistory={1=70, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =5 /// msgID:114
-00:11:59 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1075, giveHistory={1=0, 2=0, 6=0}, getHistory={1=75, 2=0, 6=0}]
-00:11:59 - Zapisao sam da sam primio:1 - 0 =5 /// msgID:6
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1080, giveHistory={1=0, 2=0, 6=0}, getHistory={1=80, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =5 /// msgID:47
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1085, giveHistory={1=0, 2=0, 6=0}, getHistory={1=85, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =1 /// msgID:179
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1086, giveHistory={1=0, 2=0, 6=0}, getHistory={1=86, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =8 /// msgID:134
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1094, giveHistory={1=0, 2=0, 6=0}, getHistory={1=94, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =9 /// msgID:195
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1103, giveHistory={1=0, 2=0, 6=0}, getHistory={1=103, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =10 /// msgID:130
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1113, giveHistory={1=0, 2=0, 6=0}, getHistory={1=113, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =9 /// msgID:111
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1122, giveHistory={1=0, 2=0, 6=0}, getHistory={1=122, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =10 /// msgID:124
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1132, giveHistory={1=0, 2=0, 6=0}, getHistory={1=132, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =8 /// msgID:91
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1140, giveHistory={1=0, 2=0, 6=0}, getHistory={1=140, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =5 /// msgID:170
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1145, giveHistory={1=0, 2=0, 6=0}, getHistory={1=145, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =8 /// msgID:83
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1153, giveHistory={1=0, 2=0, 6=0}, getHistory={1=153, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =6 /// msgID:115
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1159, giveHistory={1=0, 2=0, 6=0}, getHistory={1=159, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =7 /// msgID:68
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1166, giveHistory={1=0, 2=0, 6=0}, getHistory={1=166, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =1 /// msgID:12
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=0, 2=0, 6=0}, getHistory={1=167, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =2 /// msgID:75
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1169, giveHistory={1=0, 2=0, 6=0}, getHistory={1=169, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =8 /// msgID:160
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1177, giveHistory={1=0, 2=0, 6=0}, getHistory={1=177, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =6 /// msgID:77
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1183, giveHistory={1=0, 2=0, 6=0}, getHistory={1=183, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =2 /// msgID:17
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1185, giveHistory={1=0, 2=0, 6=0}, getHistory={1=185, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =6 /// msgID:152
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1191, giveHistory={1=0, 2=0, 6=0}, getHistory={1=191, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =5 /// msgID:48
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1196, giveHistory={1=0, 2=0, 6=0}, getHistory={1=196, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =5 /// msgID:15
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1201, giveHistory={1=0, 2=0, 6=0}, getHistory={1=201, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =1 /// msgID:65
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1202, giveHistory={1=0, 2=0, 6=0}, getHistory={1=202, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =2 /// msgID:36
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1204, giveHistory={1=0, 2=0, 6=0}, getHistory={1=204, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =5 /// msgID:3
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1209, giveHistory={1=0, 2=0, 6=0}, getHistory={1=209, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =1 /// msgID:116
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1210, giveHistory={1=0, 2=0, 6=0}, getHistory={1=210, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =10 /// msgID:98
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1220, giveHistory={1=0, 2=0, 6=0}, getHistory={1=220, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =3 /// msgID:8
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1223, giveHistory={1=0, 2=0, 6=0}, getHistory={1=223, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =5 /// msgID:167
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1228, giveHistory={1=0, 2=0, 6=0}, getHistory={1=228, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =2 /// msgID:171
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1230, giveHistory={1=0, 2=0, 6=0}, getHistory={1=230, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =2 /// msgID:123
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1232, giveHistory={1=0, 2=0, 6=0}, getHistory={1=232, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =2 /// msgID:1
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1234, giveHistory={1=0, 2=0, 6=0}, getHistory={1=234, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =5 /// msgID:43
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1239, giveHistory={1=0, 2=0, 6=0}, getHistory={1=239, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =2 /// msgID:149
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1241, giveHistory={1=0, 2=0, 6=0}, getHistory={1=241, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =7 /// msgID:4
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1248, giveHistory={1=0, 2=0, 6=0}, getHistory={1=248, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =8 /// msgID:0
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1256, giveHistory={1=0, 2=0, 6=0}, getHistory={1=256, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:1 - 0 =7 /// msgID:40
-00:12:00 - //////msgID:23
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1263, giveHistory={1=0, 2=0, 6=0}, getHistory={1=263, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 6 =5
-00:12:00 - ----Zapisao sam da sam dao:0 - 6 =5
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:78
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1258, giveHistory={1=0, 2=0, 6=5}, getHistory={1=263, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 1 =5
-00:12:00 - ----Zapisao sam da sam dao:0 - 1 =5
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:101
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1253, giveHistory={1=5, 2=0, 6=5}, getHistory={1=263, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 6 =2
-00:12:00 - ----Zapisao sam da sam dao:0 - 6 =2
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:67
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1251, giveHistory={1=5, 2=0, 6=7}, getHistory={1=263, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 2 =8
-00:12:00 - ----Zapisao sam da sam dao:0 - 2 =8
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:64
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1243, giveHistory={1=5, 2=8, 6=7}, getHistory={1=263, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 2 =4
-00:12:00 - ----Zapisao sam da sam dao:0 - 2 =4
-00:12:00 - *********************************************************************************************
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1239, giveHistory={1=5, 2=12, 6=7}, getHistory={1=263, 2=0, 6=0}]
-00:12:00 - Zapisao sam da sam primio:2 - 0 =6 /// msgID:21
-00:12:00 - //////msgID:70
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1245, giveHistory={1=5, 2=12, 6=7}, getHistory={1=263, 2=6, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 2 =5
-00:12:00 - ----Zapisao sam da sam dao:0 - 2 =5
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:133
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1240, giveHistory={1=5, 2=17, 6=7}, getHistory={1=263, 2=6, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 2 =3
-00:12:00 - ----Zapisao sam da sam dao:0 - 2 =3
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:129
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1237, giveHistory={1=5, 2=20, 6=7}, getHistory={1=263, 2=6, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 1 =2
-00:12:00 - ----Zapisao sam da sam dao:0 - 1 =2
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:12
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1235, giveHistory={1=7, 2=20, 6=7}, getHistory={1=263, 2=6, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 1 =9
-00:12:00 - ----Zapisao sam da sam dao:0 - 1 =9
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:9
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1226, giveHistory={1=16, 2=20, 6=7}, getHistory={1=263, 2=6, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 1 =6
-00:12:00 - ----Zapisao sam da sam dao:0 - 1 =6
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:145
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1220, giveHistory={1=22, 2=20, 6=7}, getHistory={1=263, 2=6, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 2 =6
-00:12:00 - ----Zapisao sam da sam dao:0 - 2 =6
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:22
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1214, giveHistory={1=22, 2=26, 6=7}, getHistory={1=263, 2=6, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 2 =8
-00:12:00 - ----Zapisao sam da sam dao:0 - 2 =8
-00:12:00 - *********************************************************************************************
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1206, giveHistory={1=22, 2=34, 6=7}, getHistory={1=263, 2=6, 6=0}]
-00:12:00 - Zapisao sam da sam primio:2 - 0 =1 /// msgID:148
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1207, giveHistory={1=22, 2=34, 6=7}, getHistory={1=263, 2=7, 6=0}]
-00:12:00 - Zapisao sam da sam primio:2 - 0 =5 /// msgID:188
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1212, giveHistory={1=22, 2=34, 6=7}, getHistory={1=263, 2=12, 6=0}]
-00:12:00 - Zapisao sam da sam primio:2 - 0 =1 /// msgID:152
-00:12:00 - //////msgID:45
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1213, giveHistory={1=22, 2=34, 6=7}, getHistory={1=263, 2=13, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 1 =6
-00:12:00 - ----Zapisao sam da sam dao:0 - 1 =6
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:138
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1207, giveHistory={1=28, 2=34, 6=7}, getHistory={1=263, 2=13, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 1 =1
-00:12:00 - ----Zapisao sam da sam dao:0 - 1 =1
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:74
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1206, giveHistory={1=29, 2=34, 6=7}, getHistory={1=263, 2=13, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 6 =3
-00:12:00 - ----Zapisao sam da sam dao:0 - 6 =3
-00:12:00 - *********************************************************************************************
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1203, giveHistory={1=29, 2=34, 6=10}, getHistory={1=263, 2=13, 6=0}]
-00:12:00 - Zapisao sam da sam primio:2 - 0 =2 /// msgID:196
-00:12:00 - //////msgID:20
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1205, giveHistory={1=29, 2=34, 6=10}, getHistory={1=263, 2=15, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 6 =2
-00:12:00 - ----Zapisao sam da sam dao:0 - 6 =2
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:27
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1203, giveHistory={1=29, 2=34, 6=12}, getHistory={1=263, 2=15, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 1 =6
-00:12:00 - ----Zapisao sam da sam dao:0 - 1 =6
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:123
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1197, giveHistory={1=35, 2=34, 6=12}, getHistory={1=263, 2=15, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 1 =5
-00:12:00 - ----Zapisao sam da sam dao:0 - 1 =5
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:110
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1192, giveHistory={1=40, 2=34, 6=12}, getHistory={1=263, 2=15, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 6 =4
-00:12:00 - ----Zapisao sam da sam dao:0 - 6 =4
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:5
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1188, giveHistory={1=40, 2=34, 6=16}, getHistory={1=263, 2=15, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 6 =7
-00:12:00 - ----Zapisao sam da sam dao:0 - 6 =7
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:82
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1181, giveHistory={1=40, 2=34, 6=23}, getHistory={1=263, 2=15, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 2 =8
-00:12:00 - ----Zapisao sam da sam dao:0 - 2 =8
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:117
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1173, giveHistory={1=40, 2=42, 6=23}, getHistory={1=263, 2=15, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 1 =10
-00:12:00 - ----Zapisao sam da sam dao:0 - 1 =10
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:58
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1163, giveHistory={1=50, 2=42, 6=23}, getHistory={1=263, 2=15, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 2 =4
-00:12:00 - ----Zapisao sam da sam dao:0 - 2 =4
-00:12:00 - *********************************************************************************************
-00:12:00 - //////msgID:126
-00:12:00 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1159, giveHistory={1=50, 2=46, 6=23}, getHistory={1=263, 2=15, 6=0}]
-00:12:00 - Zapisao sam da sam dao:0 - 1 =10
-00:12:00 - ----Zapisao sam da sam dao:0 - 1 =10
-00:12:00 - *********************************************************************************************
-00:12:01 - //////msgID:131
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1149, giveHistory={1=60, 2=46, 6=23}, getHistory={1=263, 2=15, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =7
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =7
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1142, giveHistory={1=60, 2=46, 6=30}, getHistory={1=263, 2=15, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =6 /// msgID:31
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=60, 2=46, 6=30}, getHistory={1=263, 2=21, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =4 /// msgID:37
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1152, giveHistory={1=60, 2=46, 6=30}, getHistory={1=263, 2=25, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =6 /// msgID:96
-00:12:01 - //////msgID:38
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1158, giveHistory={1=60, 2=46, 6=30}, getHistory={1=263, 2=31, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =7
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =7
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:137
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1151, giveHistory={1=60, 2=46, 6=37}, getHistory={1=263, 2=31, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =8
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =8
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:55
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1143, giveHistory={1=60, 2=46, 6=45}, getHistory={1=263, 2=31, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:19
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1137, giveHistory={1=60, 2=52, 6=45}, getHistory={1=263, 2=31, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:87
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1134, giveHistory={1=60, 2=55, 6=45}, getHistory={1=263, 2=31, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =7
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =7
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:114
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1127, giveHistory={1=67, 2=55, 6=45}, getHistory={1=263, 2=31, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =7
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =7
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:35
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1120, giveHistory={1=74, 2=55, 6=45}, getHistory={1=263, 2=31, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:8
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1117, giveHistory={1=74, 2=55, 6=48}, getHistory={1=263, 2=31, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:4
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1115, giveHistory={1=74, 2=55, 6=50}, getHistory={1=263, 2=31, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =8
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =8
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1107, giveHistory={1=74, 2=63, 6=50}, getHistory={1=263, 2=31, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =9 /// msgID:92
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1116, giveHistory={1=74, 2=63, 6=50}, getHistory={1=263, 2=40, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =3 /// msgID:112
-00:12:01 - //////msgID:85
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1119, giveHistory={1=74, 2=63, 6=50}, getHistory={1=263, 2=43, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =8
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =8
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:109
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1111, giveHistory={1=74, 2=71, 6=50}, getHistory={1=263, 2=43, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =9
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =9
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:21
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1102, giveHistory={1=74, 2=80, 6=50}, getHistory={1=263, 2=43, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =5
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =5
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1097, giveHistory={1=79, 2=80, 6=50}, getHistory={1=263, 2=43, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =5 /// msgID:73
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1102, giveHistory={1=79, 2=80, 6=50}, getHistory={1=263, 2=48, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =8 /// msgID:66
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1110, giveHistory={1=79, 2=80, 6=50}, getHistory={1=263, 2=56, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =6 /// msgID:140
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1116, giveHistory={1=79, 2=80, 6=50}, getHistory={1=263, 2=62, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =8 /// msgID:176
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1124, giveHistory={1=79, 2=80, 6=50}, getHistory={1=263, 2=70, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =8 /// msgID:128
-00:12:01 - //////msgID:92
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1132, giveHistory={1=79, 2=80, 6=50}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:132
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1122, giveHistory={1=79, 2=80, 6=60}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =1
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =1
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:72
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1121, giveHistory={1=80, 2=80, 6=60}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =8
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =8
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:75
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1113, giveHistory={1=88, 2=80, 6=60}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:25
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1110, giveHistory={1=91, 2=80, 6=60}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:130
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1108, giveHistory={1=91, 2=82, 6=60}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:84
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1105, giveHistory={1=91, 2=85, 6=60}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =5
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =5
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:62
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1100, giveHistory={1=96, 2=85, 6=60}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =9
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =9
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:71
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1091, giveHistory={1=96, 2=85, 6=69}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =7
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =7
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:17
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1084, giveHistory={1=96, 2=85, 6=76}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:15
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1082, giveHistory={1=96, 2=85, 6=78}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:36
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1072, giveHistory={1=106, 2=85, 6=78}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =9
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =9
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:1
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1063, giveHistory={1=115, 2=85, 6=78}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:29
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1053, giveHistory={1=115, 2=95, 6=78}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =5
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =5
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1048, giveHistory={1=115, 2=95, 6=83}, getHistory={1=263, 2=78, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =10 /// msgID:16
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1058, giveHistory={1=115, 2=95, 6=83}, getHistory={1=263, 2=88, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =3 /// msgID:172
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1061, giveHistory={1=115, 2=95, 6=83}, getHistory={1=263, 2=91, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =5 /// msgID:26
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1066, giveHistory={1=115, 2=95, 6=83}, getHistory={1=263, 2=96, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =10 /// msgID:80
-00:12:01 - //////msgID:50
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1076, giveHistory={1=115, 2=95, 6=83}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:118
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1066, giveHistory={1=115, 2=95, 6=93}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:81
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1056, giveHistory={1=115, 2=105, 6=93}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:83
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1054, giveHistory={1=117, 2=105, 6=93}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =1
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =1
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:49
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1053, giveHistory={1=117, 2=105, 6=94}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =7
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =7
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:41
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1046, giveHistory={1=117, 2=112, 6=94}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:16
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1043, giveHistory={1=117, 2=112, 6=97}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =4
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =4
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:96
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1039, giveHistory={1=117, 2=116, 6=97}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:52
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1029, giveHistory={1=127, 2=116, 6=97}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:98
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1023, giveHistory={1=127, 2=122, 6=97}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =1
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =1
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:48
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1022, giveHistory={1=127, 2=122, 6=98}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:124
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1016, giveHistory={1=133, 2=122, 6=98}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =1
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =1
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:2
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1015, giveHistory={1=133, 2=123, 6=98}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:80
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1009, giveHistory={1=133, 2=123, 6=104}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =9
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =9
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:112
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=1000, giveHistory={1=133, 2=123, 6=113}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:68
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=133, 2=133, 6=113}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =4
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =4
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:61
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=986, giveHistory={1=133, 2=133, 6=117}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =4
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =4
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:111
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=982, giveHistory={1=133, 2=137, 6=117}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:59
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=976, giveHistory={1=139, 2=137, 6=117}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:146
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=974, giveHistory={1=139, 2=137, 6=119}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =4
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =4
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:3
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=970, giveHistory={1=139, 2=137, 6=123}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =9
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =9
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=961, giveHistory={1=148, 2=137, 6=123}, getHistory={1=263, 2=106, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =3 /// msgID:88
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=964, giveHistory={1=148, 2=137, 6=123}, getHistory={1=263, 2=109, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =10 /// msgID:0
-00:12:01 - //////msgID:94
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=974, giveHistory={1=148, 2=137, 6=123}, getHistory={1=263, 2=119, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =7
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =7
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:51
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=967, giveHistory={1=148, 2=144, 6=123}, getHistory={1=263, 2=119, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:54
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=961, giveHistory={1=154, 2=144, 6=123}, getHistory={1=263, 2=119, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =9
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =9
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:10
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=952, giveHistory={1=163, 2=144, 6=123}, getHistory={1=263, 2=119, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=942, giveHistory={1=163, 2=154, 6=123}, getHistory={1=263, 2=119, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =2 /// msgID:72
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=944, giveHistory={1=163, 2=154, 6=123}, getHistory={1=263, 2=121, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =8 /// msgID:168
-00:12:01 - //////msgID:33
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=952, giveHistory={1=163, 2=154, 6=123}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =4
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =4
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:26
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=948, giveHistory={1=167, 2=154, 6=123}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:86
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=942, giveHistory={1=167, 2=154, 6=129}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =9
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =9
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:89
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=933, giveHistory={1=167, 2=154, 6=138}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =9
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =9
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:97
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=924, giveHistory={1=167, 2=154, 6=147}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =5
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =5
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:37
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=919, giveHistory={1=167, 2=159, 6=147}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =1
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =1
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:140
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=918, giveHistory={1=167, 2=160, 6=147}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:113
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=915, giveHistory={1=167, 2=160, 6=150}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:143
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=905, giveHistory={1=167, 2=160, 6=160}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:11
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=895, giveHistory={1=167, 2=160, 6=170}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:65
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=892, giveHistory={1=167, 2=160, 6=173}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =1
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =1
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:13
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=891, giveHistory={1=167, 2=160, 6=174}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:24
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=885, giveHistory={1=167, 2=166, 6=174}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:107
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=882, giveHistory={1=170, 2=166, 6=174}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:73
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=876, giveHistory={1=170, 2=166, 6=180}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =8
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =8
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:116
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=868, giveHistory={1=170, 2=174, 6=180}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=858, giveHistory={1=170, 2=174, 6=190}, getHistory={1=263, 2=129, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =10 /// msgID:124
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=868, giveHistory={1=170, 2=174, 6=190}, getHistory={1=263, 2=139, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =1 /// msgID:116
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=869, giveHistory={1=170, 2=174, 6=190}, getHistory={1=263, 2=140, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =2 /// msgID:4
-00:12:01 - //////msgID:32
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=871, giveHistory={1=170, 2=174, 6=190}, getHistory={1=263, 2=142, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:136
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=865, giveHistory={1=170, 2=174, 6=196}, getHistory={1=263, 2=142, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =5
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =5
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=860, giveHistory={1=170, 2=179, 6=196}, getHistory={1=263, 2=142, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =6 /// msgID:60
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=866, giveHistory={1=170, 2=179, 6=196}, getHistory={1=263, 2=148, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =5 /// msgID:108
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=871, giveHistory={1=170, 2=179, 6=196}, getHistory={1=263, 2=153, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =4 /// msgID:45
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=875, giveHistory={1=170, 2=179, 6=196}, getHistory={1=263, 2=157, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =6 /// msgID:100
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=881, giveHistory={1=170, 2=179, 6=196}, getHistory={1=263, 2=163, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =10 /// msgID:20
-00:12:01 - //////msgID:103
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=891, giveHistory={1=170, 2=179, 6=196}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:122
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=888, giveHistory={1=170, 2=182, 6=196}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:34
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=882, giveHistory={1=170, 2=182, 6=202}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =4
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =4
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:40
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=878, giveHistory={1=170, 2=186, 6=202}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:120
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=875, giveHistory={1=170, 2=189, 6=202}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:106
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=869, giveHistory={1=176, 2=189, 6=202}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:121
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=859, giveHistory={1=176, 2=199, 6=202}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =5
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =5
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:18
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=854, giveHistory={1=176, 2=204, 6=202}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =1
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =1
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:139
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=853, giveHistory={1=177, 2=204, 6=202}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:28
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=843, giveHistory={1=177, 2=214, 6=202}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =5
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =5
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:0
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=838, giveHistory={1=177, 2=219, 6=202}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =8
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =8
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:125
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=830, giveHistory={1=185, 2=219, 6=202}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =5
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =5
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:43
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=825, giveHistory={1=185, 2=219, 6=207}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:108
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=822, giveHistory={1=185, 2=222, 6=207}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =5
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =5
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:56
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=817, giveHistory={1=190, 2=222, 6=207}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =9
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =9
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:69
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=808, giveHistory={1=190, 2=222, 6=216}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:6
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=806, giveHistory={1=192, 2=222, 6=216}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:119
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=803, giveHistory={1=195, 2=222, 6=216}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:63
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=801, giveHistory={1=195, 2=222, 6=218}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =5
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =5
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:147
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=796, giveHistory={1=200, 2=222, 6=218}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=790, giveHistory={1=206, 2=222, 6=218}, getHistory={1=263, 2=173, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =7 /// msgID:192
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=797, giveHistory={1=206, 2=222, 6=218}, getHistory={1=263, 2=180, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =5 /// msgID:144
-00:12:01 - //////msgID:93
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=802, giveHistory={1=206, 2=222, 6=218}, getHistory={1=263, 2=185, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:14
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=800, giveHistory={1=208, 2=222, 6=218}, getHistory={1=263, 2=185, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:95
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=797, giveHistory={1=208, 2=222, 6=221}, getHistory={1=263, 2=185, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =1
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =1
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:39
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=796, giveHistory={1=208, 2=222, 6=222}, getHistory={1=263, 2=185, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:115
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=794, giveHistory={1=210, 2=222, 6=222}, getHistory={1=263, 2=185, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =7
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =7
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:53
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=787, giveHistory={1=210, 2=229, 6=222}, getHistory={1=263, 2=185, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =4
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =4
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:128
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=783, giveHistory={1=210, 2=229, 6=226}, getHistory={1=263, 2=185, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=777, giveHistory={1=210, 2=229, 6=232}, getHistory={1=263, 2=185, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =8 /// msgID:156
-00:12:01 - //////msgID:135
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=785, giveHistory={1=210, 2=229, 6=232}, getHistory={1=263, 2=193, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:99
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=779, giveHistory={1=216, 2=229, 6=232}, getHistory={1=263, 2=193, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:144
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=777, giveHistory={1=218, 2=229, 6=232}, getHistory={1=263, 2=193, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =4
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =4
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=773, giveHistory={1=222, 2=229, 6=232}, getHistory={1=263, 2=193, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =1 /// msgID:8
-00:12:01 - //////msgID:31
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=774, giveHistory={1=222, 2=229, 6=232}, getHistory={1=263, 2=194, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =9
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =9
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:90
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=765, giveHistory={1=222, 2=238, 6=232}, getHistory={1=263, 2=194, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=762, giveHistory={1=225, 2=238, 6=232}, getHistory={1=263, 2=194, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =4 /// msgID:104
-00:12:01 - //////msgID:30
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=766, giveHistory={1=225, 2=238, 6=232}, getHistory={1=263, 2=198, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=764, giveHistory={1=227, 2=238, 6=232}, getHistory={1=263, 2=198, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =4 /// msgID:61
-00:12:01 - //////msgID:149
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=768, giveHistory={1=227, 2=238, 6=232}, getHistory={1=263, 2=202, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:42
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=762, giveHistory={1=227, 2=238, 6=238}, getHistory={1=263, 2=202, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:46
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=760, giveHistory={1=229, 2=238, 6=238}, getHistory={1=263, 2=202, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =4
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =4
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:76
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=756, giveHistory={1=229, 2=242, 6=238}, getHistory={1=263, 2=202, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:7
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=746, giveHistory={1=229, 2=252, 6=238}, getHistory={1=263, 2=202, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:127
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=743, giveHistory={1=229, 2=255, 6=238}, getHistory={1=263, 2=202, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =5
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =5
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:142
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=738, giveHistory={1=229, 2=260, 6=238}, getHistory={1=263, 2=202, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=732, giveHistory={1=229, 2=266, 6=238}, getHistory={1=263, 2=202, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =8 /// msgID:53
-00:12:01 - //////msgID:91
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=740, giveHistory={1=229, 2=266, 6=238}, getHistory={1=263, 2=210, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =1
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =1
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:88
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=739, giveHistory={1=229, 2=267, 6=238}, getHistory={1=263, 2=210, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:77
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=737, giveHistory={1=229, 2=269, 6=238}, getHistory={1=263, 2=210, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =7
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =7
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:57
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=730, giveHistory={1=229, 2=269, 6=245}, getHistory={1=263, 2=210, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:47
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=727, giveHistory={1=232, 2=269, 6=245}, getHistory={1=263, 2=210, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =9
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =9
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:148
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=718, giveHistory={1=232, 2=269, 6=254}, getHistory={1=263, 2=210, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =8
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =8
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:79
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=710, giveHistory={1=232, 2=277, 6=254}, getHistory={1=263, 2=210, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:105
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=707, giveHistory={1=232, 2=280, 6=254}, getHistory={1=263, 2=210, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =4
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =4
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:141
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=703, giveHistory={1=236, 2=280, 6=254}, getHistory={1=263, 2=210, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =10
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =10
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=693, giveHistory={1=246, 2=280, 6=254}, getHistory={1=263, 2=210, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =7 /// msgID:120
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=700, giveHistory={1=246, 2=280, 6=254}, getHistory={1=263, 2=217, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =9 /// msgID:12
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=709, giveHistory={1=246, 2=280, 6=254}, getHistory={1=263, 2=226, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =1 /// msgID:180
-00:12:01 - //////msgID:66
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=710, giveHistory={1=246, 2=280, 6=254}, getHistory={1=263, 2=227, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=708, giveHistory={1=248, 2=280, 6=254}, getHistory={1=263, 2=227, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =10 /// msgID:184
-00:12:01 - //////msgID:100
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=718, giveHistory={1=248, 2=280, 6=254}, getHistory={1=263, 2=237, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 2 =6
-00:12:01 - ----Zapisao sam da sam dao:0 - 2 =6
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:104
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=712, giveHistory={1=248, 2=286, 6=254}, getHistory={1=263, 2=237, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =1
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =1
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=711, giveHistory={1=248, 2=286, 6=255}, getHistory={1=263, 2=237, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =5 /// msgID:49
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=716, giveHistory={1=248, 2=286, 6=255}, getHistory={1=263, 2=242, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =10 /// msgID:84
-00:12:01 - //////msgID:44
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=726, giveHistory={1=248, 2=286, 6=255}, getHistory={1=263, 2=252, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =3
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =3
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:60
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=723, giveHistory={1=248, 2=286, 6=258}, getHistory={1=263, 2=252, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =4
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =4
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=719, giveHistory={1=252, 2=286, 6=258}, getHistory={1=263, 2=252, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =3 /// msgID:132
-00:12:01 - //////msgID:134
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=722, giveHistory={1=252, 2=286, 6=258}, getHistory={1=263, 2=255, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 6 =2
-00:12:01 - ----Zapisao sam da sam dao:0 - 6 =2
-00:12:01 - *********************************************************************************************
-00:12:01 - //////msgID:102
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=720, giveHistory={1=252, 2=286, 6=260}, getHistory={1=263, 2=255, 6=0}]
-00:12:01 - Zapisao sam da sam dao:0 - 1 =8
-00:12:01 - ----Zapisao sam da sam dao:0 - 1 =8
-00:12:01 - *********************************************************************************************
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=712, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=255, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =5 /// msgID:41
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=717, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=260, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =3 /// msgID:164
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=720, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=263, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =2 /// msgID:28
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=722, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=265, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =7 /// msgID:136
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=729, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=272, 6=0}]
-00:12:01 - Zapisao sam da sam primio:2 - 0 =3 /// msgID:160
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=732, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=0}]
-00:12:01 - Zapisao sam da sam primio:6 - 0 =7 /// msgID:16
-00:12:01 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=739, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=7}]
-00:12:01 - Zapisao sam da sam primio:6 - 0 =8 /// msgID:8
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=747, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=15}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =2 /// msgID:98
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=749, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=17}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =4 /// msgID:28
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=753, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=21}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =4 /// msgID:72
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=757, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=25}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =3 /// msgID:159
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=760, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=28}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =5 /// msgID:20
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=765, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=33}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =2 /// msgID:155
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=767, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=35}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =10 /// msgID:60
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=777, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=45}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =9 /// msgID:89
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=786, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=54}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =2 /// msgID:105
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=788, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=56}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =4 /// msgID:76
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=792, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=60}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =1 /// msgID:179
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=793, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=61}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =2 /// msgID:4
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=795, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=63}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =6 /// msgID:68
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=801, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=69}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =6 /// msgID:194
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=807, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=75}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =9 /// msgID:143
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=816, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=84}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =7 /// msgID:80
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=823, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=91}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =3 /// msgID:147
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=826, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=94}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =3 /// msgID:175
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=829, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=97}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =6 /// msgID:99
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=835, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=103}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =7 /// msgID:40
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=842, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=110}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =9 /// msgID:12
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=851, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=119}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =8 /// msgID:56
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=859, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=127}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =6 /// msgID:93
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=865, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=133}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =6 /// msgID:132
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=871, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=139}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =3 /// msgID:84
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=874, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=142}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =5 /// msgID:187
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=879, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=147}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =9 /// msgID:120
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=888, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=156}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =5 /// msgID:36
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=893, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=161}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =4 /// msgID:117
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=897, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=165}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =2 /// msgID:114
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=899, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=167}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =7 /// msgID:0
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=906, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=174}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =7 /// msgID:109
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=913, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=181}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =1 /// msgID:183
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=914, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=182}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =6 /// msgID:24
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=920, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=188}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =2 /// msgID:52
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=922, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=190}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =9 /// msgID:82
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=931, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=199}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =9 /// msgID:119
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=940, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=208}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =1 /// msgID:44
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=941, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=209}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =9 /// msgID:139
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=950, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=218}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =7 /// msgID:163
-00:12:02 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=957, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=225}]
-00:12:02 - Zapisao sam da sam primio:6 - 0 =1 /// msgID:171
-00:12:03 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=958, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=226}]
-00:12:03 - Zapisao sam da sam primio:6 - 0 =5 /// msgID:48
-00:12:03 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=963, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=231}]
-00:12:03 - Zapisao sam da sam primio:6 - 0 =8 /// msgID:64
-00:12:03 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=971, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=239}]
-00:12:03 - Zapisao sam da sam primio:6 - 0 =8 /// msgID:124
-00:12:03 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=979, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=247}]
-00:12:03 - Zapisao sam da sam primio:6 - 0 =1 /// msgID:151
-00:12:03 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=980, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=248}]
-00:12:03 - Zapisao sam da sam primio:6 - 0 =4 /// msgID:131
-00:12:03 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=984, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=252}]
-00:12:03 - Zapisao sam da sam primio:6 - 0 =4 /// msgID:32
-00:12:03 - vratio info:0 - ServentStatusInfo [serventId=0, currentAmount=988, giveHistory={1=260, 2=286, 6=260}, getHistory={1=263, 2=275, 6=256}]
-00:12:03 - Zapisao sam da sam primio:6 - 0 =7 /// msgID:113
-00:12:04 - //////msgID:150
-00:12:04 - //////msgID:152
-00:12:04 - //////msgID:153
-00:12:04 - //////msgID:151
+23:43:32 - Pravim ovoliko inicijatora 4
+23:43:32 - Pravim ovoliko inicijatora 4
+23:43:32 - Pravim ovoliko inicijatora 4
+23:43:32 - Pravim ovoliko inicijatora 4
+23:43:32 - Pravim ovoliko inicijatora 4
+23:43:32 - Pravim ovoliko inicijatora 4
+23:43:32 - Pravim ovoliko inicijatora 4
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:34 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:35 - Usao za prvi-give
+23:43:37 - Poslao ovaj info 150:ServentStatusInfo [serventId=0, currentAmount=1006, giveHistory={1=265, 2=272, 6=288}, getHistory={1=290, 2=261, 6=280}]

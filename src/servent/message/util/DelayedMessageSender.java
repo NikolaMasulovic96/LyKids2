@@ -29,16 +29,13 @@ public class DelayedMessageSender implements Runnable {
 		 * A random sleep before sending.
 		 * It is important to take regular naps for health reasons.
 		 */
+		ServentInfo receiverInfo = messageToSend.getReceiverInfo();
+
 		try {
 			Thread.sleep((long)(Math.random() * 1000) + 500);
 		} catch (InterruptedException e1) {
 			e1.printStackTrace();
 		}
-		
-		ServentInfo receiverInfo = messageToSend.getReceiverInfo();
-		
-		
-		
 		try {
 			/*
 			 * Similar sync block to the one in FifoSenderWorker, except this one is
@@ -49,11 +46,8 @@ public class DelayedMessageSender implements Runnable {
 			 * to override setRedColor() because of this.
 			 */
 			synchronized (AppConfig.colorLock) {
-				
-					//messageToSend = messageToSend.setRedColor();
-					SnapshotIndicator snap =  new SnapshotIndicator(AppConfig.currentSnapshotInitiator, AppConfig.currentSnapshotId.get());
-					messageToSend.setSnapshotIndicator(snap);
 
+				messageToSend.setSnapshotIndicator(AppConfig.currentSnapshotIndicator);
 					if (MessageUtil.MESSAGE_UTIL_PRINTING) {
 						AppConfig.timestampedStandardPrint("Sending message " + messageToSend);
 					}
@@ -64,13 +58,18 @@ public class DelayedMessageSender implements Runnable {
 				oos.flush();
 				
 				sendSocket.close();
-				AppConfig.timestampedErrorPrint("//////msgID:" + messageToSend.getMessageId());
 				messageToSend.sendEffect();
 			}
 			
 		} catch (IOException e) {
 			AppConfig.timestampedErrorPrint("Couldn't send message: " + messageToSend.toString());
 		}
-	}
 	
+		
+		
+		
+		
+		
+	
+	}	
 }
