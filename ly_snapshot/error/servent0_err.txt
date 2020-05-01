@@ -1,76 +1,82 @@
-13:16:27 - Pravim ovoliko inicijatora 1
-13:16:27 - Pravim ovoliko inicijatora 1
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:28 - Usao za prvi-give
-13:16:29 - Usao za prvi-give
-13:16:29 - Usao za prvi-give
-13:16:29 - Usao za prvi-give
-13:16:29 - Usao za prvi-give
-13:16:29 - Usao za prvi-give
-13:16:29 - Usao za prvi-give
-13:16:29 - Usao za prvi-give
-13:16:29 - Poslao ovaj info 50:ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}]
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
-13:16:29 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1148, giveHistory={1=123}, getHistory={1=271}], SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=990, giveHistory={1=10}, getHistory={1=0}]}
+14:36:59 - Pravim ovoliko inicijatora 1
+14:36:59 - Pravim ovoliko inicijatora 1
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Usao za prvi-give
+14:37:01 - Dobio marker:SnapshotIndicator <initiatorId:1, snap:0>
+14:37:01 - Usao da proveri marker
+14:37:01 - Dobio marker:SnapshotIndicator <initiatorId:1, snap:0>
+14:37:01 - Poslao ovaj info 50:ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - Usao za drugi- give -{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:01 - da li je uspeo:{SnapshotIndicator <initiatorId:1, snap:1>=ServentStatusInfo [serventId=0, currentAmount=995, giveHistory={1=5}, getHistory={1=0}], SnapshotIndicator <initiatorId:1, snap:0>=ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]}
+14:37:10 - Dobio marker:SnapshotIndicator <initiatorId:1, snap:1>
+14:37:10 - Usao da proveri marker
+14:37:10 - Dobio marker:SnapshotIndicator <initiatorId:1, snap:1>
+14:37:10 - Poslao ovaj info 51:ServentStatusInfo [serventId=0, currentAmount=1167, giveHistory={1=123}, getHistory={1=290}]

@@ -67,9 +67,9 @@ public class SimpleServentListener implements Runnable, Cancellable {
 				 * The marker contains the collector id, so we need to process that as our first
 				 * red message. 
 				 */
-				if (AppConfig.isWhite.get() == false && redMessages.size() > 0) {
-					clientMessage = redMessages.remove(0);
-				} else {
+				//if (AppConfig.isWhite.get() == false && redMessages.size() > 0) {
+					//clientMessage = redMessages.remove(0);
+				//} else {
 					/*
 					 * This blocks for up to 1s, after which SocketTimeoutException is thrown.
 					 */
@@ -77,30 +77,53 @@ public class SimpleServentListener implements Runnable, Cancellable {
 					
 					//GOT A MESSAGE! <3
 					clientMessage = MessageUtil.readMessage(clientSocket);
-				}
+				//}
 				synchronized (AppConfig.colorLock) {
-					if (clientMessage.isWhite() == false && AppConfig.isWhite.get()) {
+					if(clientMessage.getMessageType() == MessageType.LY_MARKER) {
+						AppConfig.timestampedErrorPrint("Dobio marker:" + clientMessage.getSnapshotIndicator());
+					}
+					if (clientMessage.isWhite() == false) {
+						
+						if(clientMessage.getMessageType() == MessageType.LY_MARKER) {
+							AppConfig.timestampedErrorPrint("Usao da proveri marker");
+						}
+						if(clientMessage.getMessageType() != MessageType.LY_TELL) {
+							if (clientMessage.getMessageType() != MessageType.LY_MARKER) {
+								redMessages.add(clientMessage);
+								continue;
+							} else {
+								SnapshotIndicator msgIndicator = clientMessage.getSnapshotIndicator();
+								boolean ignoreMarker = false;
+								for(SnapshotIndicator s : AppConfig.doneSnapshots) {
+									if(s.getInitiatorId() == msgIndicator.getInitiatorId() && s.getSnapshotId() == msgIndicator.getSnapshotId()) {
+										ignoreMarker = true;
+									}
+								}
+								if(!ignoreMarker) {
+									AppConfig.timestampedErrorPrint("Dobio marker:" + clientMessage.getSnapshotIndicator());
+									Integer snapId = 0;
+									for (Map.Entry<SnapshotIndicator,ServentStatusInfo> entry : AppConfig.snapshotIndicators.entrySet()) {
+										if(entry.getKey().getInitiatorId() == clientMessage.getOriginalSenderInfo().getId()) {
+											snapId = entry.getKey().getSnapshotId();
+											AppConfig.timestampedStandardPrint("Pronasao snapID:" + snapId);
+										}
+									}
+									SnapshotIndicator si = new SnapshotIndicator(clientMessage.getOriginalSenderInfo().getId(), snapId);
+									LaiYangBitcakeManager lyFinancialManager =(LaiYangBitcakeManager)snapshotCollector.getBitcakeManager();
+									lyFinancialManager.markerEvent(Integer.parseInt(clientMessage.getMessageText()), snapshotCollector,si);
+								}else {
+									AppConfig.timestampedErrorPrint("Ignorisem marker:" + msgIndicator);
+								}
+								
+							}
+						}
 						/*
 						 * If the message is red, we are white, and the message isn't a marker,
 						 * then store it. We will get the marker soon, and then we will process
 						 * this message. The point is, we need the marker to know who to send
 						 * our info to, so this is the simplest way to work around that.
 						 */
-						if (clientMessage.getMessageType() != MessageType.LY_MARKER) {
-							redMessages.add(clientMessage);
-							continue;
-						} else {
-							Integer snapId = 0;
-							for (Map.Entry<SnapshotIndicator,ServentStatusInfo> entry : AppConfig.snapshotIndicators.entrySet()) {
-								if(entry.getKey().getInitiatorId() == clientMessage.getOriginalSenderInfo().getId()) {
-									snapId = entry.getKey().getSnapshotId();
-									AppConfig.timestampedStandardPrint("Pronasao snapID:" + snapId);
-								}
-							}
-							SnapshotIndicator si = new SnapshotIndicator(clientMessage.getOriginalSenderInfo().getId(), snapId);
-							LaiYangBitcakeManager lyFinancialManager =(LaiYangBitcakeManager)snapshotCollector.getBitcakeManager();
-							lyFinancialManager.markerEvent(Integer.parseInt(clientMessage.getMessageText()), snapshotCollector,si);
-						}
+					
 					}
 				}
 				
@@ -111,6 +134,9 @@ public class SimpleServentListener implements Runnable, Cancellable {
 				 * If we can get away with stateless handlers, we will,
 				 * because that way is much simpler and less error prone.
 				 */
+				if(clientMessage.getMessageType() == MessageType.LY_TELL) {
+					AppConfig.timestampedErrorPrint("Prosao tell");
+				}
 				switch (clientMessage.getMessageType()) {
 				case TRANSACTION:
 					messageHandler = new TransactionHandler(clientMessage, snapshotCollector.getBitcakeManager());

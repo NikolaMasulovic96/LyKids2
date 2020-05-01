@@ -79,12 +79,16 @@ public class SnapshotCollectorWorker implements SnapshotCollector {
 			 */
 			
 			//1 send asks
-			AppConfig.timestampedStandardPrint("Zapocet info");
+			AppConfig.timestampedStandardPrint("Zapocet info" + AppConfig.currentSnapshotIndicator);
+			if(AppConfig.currentSnapshotIndicator.getInitiatorId() != -1) {
+				AppConfig.currentSnapshotIndicator.setSnapshotId(AppConfig.currentSnapshotIndicator.getSnapshotId() + 1);
+			}
 			((LaiYangBitcakeManager)bitcakeManager).markerEvent(AppConfig.myServentInfo.getId(), this,AppConfig.currentSnapshotIndicator);
 			
 			//2 wait for responses or finish
 			boolean waiting = true;
 			while (waiting) {
+				AppConfig.timestampedErrorPrint(AppConfig.currSnapshotResults.size() + "");
 				if (AppConfig.currSnapshotResults.size() == AppConfig.getServentCount()) {
 					waiting = false;
 				}
@@ -194,7 +198,7 @@ public class SnapshotCollectorWorker implements SnapshotCollector {
 			collectedLYValues.clear(); //reset for next invocation
 			collecting.set(false);
 			//AppConfig.snapsotsInfo.clear();
-			AppConfig.snapshotIndicators.clear();
+			//AppConfig.snapshotIndicators.clear();
 			AppConfig.currSnapshotResults.clear();
 		}
 

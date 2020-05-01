@@ -48,6 +48,7 @@ public class DelayedMessageSender implements Runnable {
 			synchronized (AppConfig.colorLock) {
 
 				messageToSend.setSnapshotIndicator(AppConfig.currentSnapshotIndicator);
+				messageToSend.setRedColor();
 					if (MessageUtil.MESSAGE_UTIL_PRINTING) {
 						AppConfig.timestampedStandardPrint("Sending message " + messageToSend);
 					}

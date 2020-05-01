@@ -60,11 +60,12 @@ public class LaiYangBitcakeManager implements BitcakeManager {
 				}else {
 					AppConfig.currentSnapshotIndicator.setSnapshotId(snapshotIndicator.getSnapshotId());
 				}
-				
+				AppConfig.timestampedErrorPrint(collectorId + "-"+ AppConfig.currentSnapshotIndicator.getSnapshotId());
 				ServentStatusInfo s = AppConfig.getSnapshotGlobalInfo(collectorId, AppConfig.currentSnapshotIndicator.getSnapshotId());
 				ServentStatusInfo newS = new  ServentStatusInfo(s);
 				AppConfig.currentSnapshotIndicator.setInitiatorId(collectorId);
 				AppConfig.currSnapshotResults.add(newS);
+				AppConfig.doneSnapshots.add(AppConfig.currentSnapshotIndicator);
 			} else {
 				ServentStatusInfo snapInfo = new ServentStatusInfo(AppConfig.getSnapshotGlobalInfo(collectorId, snapshotIndicator.getSnapshotId()));
 				Message tellMessage = new LYTellMessage(AppConfig.myServentInfo, AppConfig.getInfoById(collectorId), snapshotResult,snapshotIndicator,snapInfo);
@@ -72,11 +73,15 @@ public class LaiYangBitcakeManager implements BitcakeManager {
 				AppConfig.currentSnapshotIndicator.setInitiatorId(snapshotIndicator.getInitiatorId());
 				AppConfig.currentSnapshotIndicator.setSnapshotId(snapshotIndicator.getSnapshotId());
 				MessageUtil.sendMessage(tellMessage);
+				AppConfig.doneSnapshots.add(AppConfig.currentSnapshotIndicator);
+
 			}
 			
 			for (Integer neighbor : AppConfig.myServentInfo.getNeighbors()) {
-				Message clMarker = new LYMarkerMessage(AppConfig.myServentInfo, AppConfig.getInfoById(neighbor), collectorId,snapshotIndicator);
-				MessageUtil.sendMessage(clMarker);
+				if(neighbor != collectorId) {
+					Message clMarker = new LYMarkerMessage(AppConfig.myServentInfo, AppConfig.getInfoById(neighbor), collectorId,snapshotIndicator);
+					MessageUtil.sendMessage(clMarker);
+				}
 				try {
 					/*
 					 * This sleep is here to artificially produce some white node -> red node messages.

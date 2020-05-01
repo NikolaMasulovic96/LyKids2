@@ -32,6 +32,7 @@ public class AppConfig {
 	
 	public static  List<Integer> potentialInitiators = new ArrayList<>();
 	//novo -> cuvanje snap istorije
+	public static List<SnapshotIndicator> doneSnapshots = Collections.synchronizedList(new ArrayList<>());
 	public static Map<SnapshotIndicator,ServentStatusInfo> snapshotIndicators = Collections.synchronizedMap(new HashMap<SnapshotIndicator,ServentStatusInfo>());
 	public static List<ServentStatusInfo> currSnapshotResults = Collections.synchronizedList(new ArrayList<>());
 	public static SnapshotIndicator currentSnapshotIndicator = new SnapshotIndicator(-1, -1);
