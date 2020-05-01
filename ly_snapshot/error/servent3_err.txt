@@ -1,8 +1,0 @@
-23:43:33 - Pravim ovoliko inicijatora 4
-23:43:33 - Pravim ovoliko inicijatora 4
-23:43:33 - Pravim ovoliko inicijatora 4
-23:43:33 - Pravim ovoliko inicijatora 4
-23:43:33 - Pravim ovoliko inicijatora 4
-23:43:33 - Pravim ovoliko inicijatora 4
-23:43:33 - Pravim ovoliko inicijatora 4
-23:43:34 - Poslao ovaj info 0:ServentStatusInfo [serventId=3, currentAmount=1352, giveHistory={1=0, 2=0, 4=0, 6=0}, getHistory={1=302, 2=50, 4=0, 6=0}]

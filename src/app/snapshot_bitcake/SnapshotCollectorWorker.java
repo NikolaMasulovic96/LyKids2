@@ -85,7 +85,7 @@ public class SnapshotCollectorWorker implements SnapshotCollector {
 			//2 wait for responses or finish
 			boolean waiting = true;
 			while (waiting) {
-				if (collectedLYValues.size() == AppConfig.getServentCount()) {
+				if (AppConfig.currSnapshotResults.size() == AppConfig.getServentCount()) {
 					waiting = false;
 				}
 				

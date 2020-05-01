@@ -60,8 +60,9 @@ public class LaiYangBitcakeManager implements BitcakeManager {
 				}else {
 					AppConfig.currentSnapshotIndicator.setSnapshotId(snapshotIndicator.getSnapshotId());
 				}
+				
 				ServentStatusInfo s = AppConfig.getSnapshotGlobalInfo(collectorId, AppConfig.currentSnapshotIndicator.getSnapshotId());
-				ServentStatusInfo newS =new  ServentStatusInfo(s);
+				ServentStatusInfo newS = new  ServentStatusInfo(s);
 				AppConfig.currentSnapshotIndicator.setInitiatorId(collectorId);
 				AppConfig.currSnapshotResults.add(newS);
 			} else {
